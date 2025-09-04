@@ -58,12 +58,15 @@
 
     <!-- Section Présentation -->
     <section id="presentation" class="section">
-        <!--
+
+        <!-- Ne s’affiche pas si l’URL contient le paramètre `v` -->
         <div class="parallax-bg" style="background-image: url('./images/beach-2179624.jpg'); top:-1000px"></div>
-        -->
+
+        <!-- S’affiche si l’URL contient le paramètre `v` -->
         <video autoplay loop muted playsinline class="parallax-bg" style="object-fit:cover; top:-800px">
             <source src="./videos/background-video.mp4" type="video/mp4">
         </video>
+
         <div class="section-overlay"></div>
         <div class="container dark-box">
             <h2 class="section-title">Présentation</h2>

@@ -196,3 +196,25 @@ function truncateServiceCards() {
 
 // Appeler la fonction après le chargement du DOM
 document.addEventListener("DOMContentLoaded", truncateServiceCards);
+
+// Fonction pour gérer l'affichage vidéo/image selon le paramètre URL "v"
+function handleVideoParameter() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const hasVideoParam = urlParams.has('v');
+
+    const imageDiv = document.querySelector('.parallax-bg[style*="background-image"]');
+    const videoElement = document.querySelector('video.parallax-bg');
+
+    if (hasVideoParam) {
+        // Afficher la vidéo, masquer l'image
+        if (imageDiv) imageDiv.style.display = 'none';
+        if (videoElement) videoElement.style.display = 'block';
+    } else {
+        // Afficher l'image, masquer la vidéo
+        if (imageDiv) imageDiv.style.display = 'block';
+        if (videoElement) videoElement.style.display = 'none';
+    }
+}
+
+// Appeler la fonction au chargement de la page
+document.addEventListener("DOMContentLoaded", handleVideoParameter);
