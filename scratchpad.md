@@ -7,3 +7,26 @@ https://pixabay.com/fr/photos/plage-le-coucher-du-soleil-vagues-2179624/
 https://pixabay.com/fr/photos/oc%C3%A9an-mer-vagues-lever-du-soleil-1867285/
 
 https://fr.freepik.com/photos-gratuite/gros-plan-homme-ayant-massage-du-dos-pendant-cure-thermale-au-centre-bien-etre_25630615.htm#fromView=keyword&page=1&position=28&uuid=477fde8a-6ca3-4e55-9d0e-195333556e82&query=Massage
+
+www.gettyimages.ch/detail/video/sunset-sea-waves-tropical-background-stock-filmmaterial/2159518640?adppopup=true
+
+www.gettyimages.ch/detail/video/water-at-dusk-on-the-ocean-stock-filmmaterial/1394433945?adppopup=true
+
+www.gettyimages.ch/detail/video/wave-and-reflection-slow-motion-stock-filmmaterial/1067501298?adppopup=true
+
+www.gettyimages.ch/detail/video/tropical-beach-sunset-stock-filmmaterial/1217392561?adppopup=true
+
+www.gettyimages.ch/detail/video/beautiful-sunset-over-the-sea-stock-filmmaterial/1179447025?adppopup=true
+
+www.gettyimages.ch/detail/video/crashing-waves-stock-filmmaterial/1288114643?adppopup=true
+
+https://www.gettyimages.ch/detail/video/sunset-sky-at-the-beach-stock-filmmaterial/1402693243?adppopup=true
+
+---
+
+#
+
+https://www.gettyimages.ch/search/more-like-this/907292430?assettype=film&family=creative&page=6&phrase=vagues&license=rf%2Crr
+
+---
+
