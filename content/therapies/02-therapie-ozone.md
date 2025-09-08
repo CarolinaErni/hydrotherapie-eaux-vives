@@ -27,4 +27,7 @@ Les effets de la thérapie à l’ozone s’installent progressivement, créant 
 
 En complément à l’hydrothérapie
 
+```
+
 80 CHF
+```

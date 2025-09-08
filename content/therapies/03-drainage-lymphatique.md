@@ -27,6 +27,8 @@ L’aspect profondément relaxant du drainage lymphatique mérite une attention 
 
 Cette approche holistique considère la personne dans sa globalité, reconnaissant l’interdépendance entre les systèmes physiologiques, émotionnels, et énergétiques. Le drainage lymphatique manuel du Dr Vodder offre ainsi une voie privilégiée vers un bien-être durable, naturel, et profondément régénérant.
 
-1 h
+```
 
+1 h
 140 CHF
+```

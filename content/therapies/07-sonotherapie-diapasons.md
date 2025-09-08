@@ -27,6 +27,8 @@ La thérapie au diapason s’avère particulièrement efficace pour traiter les 
 
 Chaque séance est unique et personnalisée selon les besoins spécifiques de la personne et sa réceptivité aux différentes fréquences. Cette approche individualisée permet d’obtenir des résultats optimaux, respectant le rythme naturel de chacun et favorisant une transformation progressive et durable vers un état d’harmonie et de bien-être global.
 
-1 h 10
+```
 
+1 h 10
 140 CHF
+```

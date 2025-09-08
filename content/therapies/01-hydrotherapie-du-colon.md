@@ -25,11 +25,14 @@ Cette approche holistique considère le corps dans sa globalité, reconnaissant 
 
 <br>
 
-_Une séance d’hydrothérapie se prépare deux jours à l’avance.<br>
-Vous pouvez consulter le protocole de préparation sur cette page :_
+> Une séance d’hydrothérapie se prépare deux jours à l’avance.
+>
+> Vous pouvez consulter le protocole de préparation sur cette page :
+>
+> [Préparation à votre séance d'hydrothérapie du côlon](preparation-hydrotherapie.html)
 
-<p><a href="preparation-hydrotherapie.html" style="text-decoration: underline;">Préparation à votre séance d’hydrothérapie du côlon</a></p>
+```
 
 1 h 45
-
 200 CHF
+```

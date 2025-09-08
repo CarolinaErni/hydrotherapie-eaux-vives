@@ -27,6 +27,8 @@ La libération des tensions constitue l’un des aspects les plus remarquables d
 
 Le massage détente rythmé par le cœur agit comme une clé universelle capable de déverrouiller ces différents types de tensions. La synchronisation cardiaque induit un état de lâcher-prise profond où le corps peut naturellement libérer ses crispations et retrouver sa fluidité naturelle. Cette libération s’opère progressivement, couche après couche, permettant au corps d’exprimer et d’évacuer les tensions accumulées parfois depuis des années.
 
-1 h
+```
 
+1 h
 140 CHF
+```
