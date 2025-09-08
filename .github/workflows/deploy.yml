@@ -3,7 +3,7 @@ name: Deploy Hugo site to GitHub Pages
 
 on:
   push:
-    branches: ["main"]   # Déploie quand tu pushes sur main
+    branches: ["gh-pages"]
   workflow_dispatch:      # Permet de lancer manuellement depuis l'onglet Actions
 
 permissions:
