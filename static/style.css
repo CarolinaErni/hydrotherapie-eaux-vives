@@ -279,7 +279,7 @@ a[data-section] {
 }
 
 #presentation blockquote {
-    font-family: Marck Script;
+    font-family: "Marck Script";
     font-size: 200%;
     font-weight: bold;
     margin: 3em auto 2em;
@@ -429,7 +429,7 @@ a[data-section] {
 }
 
 .citation {
-    font-family: Marck Script;
+    font-family: "Marck Script";
     font-size: 200%;
     font-weight: bold;
     margin: 3em auto 2em;
