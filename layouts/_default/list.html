@@ -1,0 +1,19 @@
+{{ define "main" }}
+<main class="section-list">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ if .Pages }}
+      <div class="list-grid">
+        {{ range .Pages }}
+          <article class="list-item">
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+            <div class="excerpt">{{ .Summary }}</div>
+          </article>
+        {{ end }}
+      </div>
+    {{ else }}
+      <p>Aucun contenu dans cette section.</p>
+    {{ end }}
+  </div>
+</main>
+{{ end }}

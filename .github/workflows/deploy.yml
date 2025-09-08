@@ -1,0 +1,28 @@
+name: Build and deploy Hugo site to GitHub Pages
+
+on:
+  push:
+    branches: [ hugo, main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.124.3'
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          publish_dir: ./public
+          publish_branch: gh-pages
+          enable_silent: true

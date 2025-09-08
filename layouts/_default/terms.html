@@ -1,0 +1,22 @@
+{{ define "main" }}
+<main class="taxonomy-terms">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+
+    {{ if .Data.Terms }}
+      {{ range $taxonomy, $terms := .Data.Terms }}
+        <section class="taxonomy-group">
+          <h2>{{ $taxonomy | title }}</h2>
+          <ul>
+            {{ range $name, $term := $terms }}
+              <li><a href="{{ $term.Permalink }}">{{ $term.Term }}</a> ({{ $term.Count }})</li>
+            {{ end }}
+          </ul>
+        </section>
+      {{ end }}
+    {{ else }}
+      <p>Aucune taxonomie trouvée.</p>
+    {{ end }}
+  </div>
+</main>
+{{ end }}

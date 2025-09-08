@@ -235,6 +235,56 @@ a[data-section] {
     margin-bottom: 2rem;
 }
 
+/* Ensure Markdown-generated headings/paragraphs inside #accueil inherit hero styles */
+#accueil h1 {
+    /* same as .hero-title */
+    animation: fadeInUp 1s ease;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+#accueil p {
+    /* default hero-subtitle behavior for the first two paragraphs */
+    animation: fadeInUp 1s ease 0.3s both;
+    color: color-mix(in srgb, currentColor 80%, white 20%);
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Présentation content styles */
+#presentation .author {
+    text-align: center;
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+#presentation img {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+#presentation p:nth-of-type(3) img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin: 0 auto;
+    border: 0;
+}
+
+#presentation p:nth-of-type(4) img {
+    max-width: 350px;
+    margin-top: 2rem;
+}
+
+#presentation blockquote {
+    font-family: Marck Script;
+    font-size: 200%;
+    font-weight: bold;
+    margin: 3em auto 2em;
+}
+
 .cta-button {
     animation: fadeInUp 1s ease 0.6s both;
     background-color: rgba(0, 0, 0, 0.4);

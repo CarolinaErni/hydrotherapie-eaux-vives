@@ -1,0 +1,36 @@
+
+baseURL             = "https://NicHub.github.io/hydrotherapie-eaux-vives-hugo/"
+languageCode        = "fr-FR"
+title               = "Cabinet Carolina Erni — Hydrothérapie & massages"
+canonifyurls        = true
+disableRSS          = true
+
+[params]
+  description       = "Cabinet d’hydrothérapie et de massages aux Eaux-Vives à Genève"
+  author            = "Carolina Erni"
+
+[outputs]
+  home = ["HTML"]
+
+[permalinks]
+  post = "/:slug/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      attribute = true
+
+# [markup]
+#     [markup.goldmark]
+#         [markup.goldmark.parser]
+#             attribute = true
+
+# [markup]
+#   [markup.goldmark]
+#     [markup.goldmark.parser]
+#       wrapStandAloneImageWithinParagraph = false
+#       [markup.goldmark.parser.attribute]
+#         block = true
+#         title = true
