@@ -30,7 +30,6 @@ La combinaison des méthodes Dorn et Breuss crée une synergie thérapeutique ex
 Les propriétés anti-dépressives naturelles de l’huile de millepertuis contribuent également à l’effet thérapeutique global, aidant à lever les états de morosité et de découragement souvent associés aux douleurs chroniques. Cette action sur l’humeur crée un cercle vertueux où l’amélioration physique s’accompagne d’un mieux-être psychologique, et vice versa.
 
 ```
-
 1 h
 140 CHF
 ```

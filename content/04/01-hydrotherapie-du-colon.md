@@ -32,7 +32,6 @@ Cette approche holistique considère le corps dans sa globalité, reconnaissant 
 > [Préparation à votre séance d'hydrothérapie du côlon](preparation-hydrotherapie.html)
 
 ```
-
 1 h 45
 200 CHF
 ```

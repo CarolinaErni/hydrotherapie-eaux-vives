@@ -1,7 +1,6 @@
 ---
 title: "Accueil"
 slug: "accueil"
-weight: 1
 ---
 
 # Bienvenue au cabinet Carolina Erni

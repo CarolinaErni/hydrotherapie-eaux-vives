@@ -28,7 +28,6 @@ Les effets de la réflexologie douce se manifestent à plusieurs niveaux. Sur le
 L’aspect énergétique de la méthode Nick Durrer mérite une attention particulière. Cette approche considère que les blocages énergétiques sont souvent à l’origine des dysfonctionnements physiques et émotionnels. En rétablissant la libre circulation de l’énergie vitale, la réflexologie douce contribue à harmoniser l’ensemble de l’être, créant les conditions optimales pour la santé et le bien-être.
 
 ```
-
 1 h
 130 CHF
 ```

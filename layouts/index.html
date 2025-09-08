@@ -1,42 +1,15 @@
 {{ define "main" }}
-<!-- Header -->
-<header class="header">
-    <div class="nav-container">
-        <a class="logo" href="#accueil" data-section="accueil">
-            <div class="logo-img">
-                <img src="./favicon.svg" alt="Logo cabinet Carolina Erni">
-            </div>
-            <div class="logo-text">
-                <p>Carolina Erni</p>
-                <p>hydrotherapie-eaux-vives.ch</p>
-            </div>
-        </a>
-        <nav>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a class="nav-link" href="#accueil" data-section="accueil">Accueil & Présentation</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#therapies-massages" data-section="therapies-massages">Thérapies & Massages</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact-infos" data-section="contact-infos">Contact & Infos</a>
-                </li>
-            </ul>
-            <div class="mobile-menu-btn">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
-    </div>
-</header>
 
-<!-- Section Accueil (loaded from content/accueil.md) -->
+<!-- Section Header -->
+{{ with .Site.GetPage "01/header" }}
+{{ .Content | safeHTML }}
+{{ end }}
+
+<!-- Section Accueil -->
 <section id="accueil" class="section">
     <div class="container">
         <div class="dark-box">
-            {{ with .Site.GetPage "accueil" }}
+            {{ with .Site.GetPage "02/accueil" }}
             {{ .Content | safeHTML }}
             {{ end }}
         </div>
@@ -51,7 +24,7 @@
 
     <div class="section-overlay"></div>
     <div class="container dark-box">
-        {{ with .Site.GetPage "presentation" }}
+        {{ with .Site.GetPage "03/presentation" }}
         <h2 class="section-title">{{ .Title }}</h2>
         <div class="section-content">
             {{ .Content | safeHTML }}
@@ -69,7 +42,7 @@
                 <div class="section-content">
                     <div class="services-grid">
                         {{- /* Render each therapy page from the `therapies` section in filename order */ -}}
-                        {{- $therapies := where .Site.RegularPages "Section" "therapies" -}}
+                        {{- $therapies := where .Site.RegularPages "Section" "04" -}}
                         {{- range sort $therapies "File.LogicalName" "asc" -}}
                         <div class="service-card">
                             {{ .Content | safeHTML }}
@@ -88,76 +61,18 @@
         <h2 class="section-title">Contact & Infos</h2>
         <div class="section-content">
             <div class="contact-items">
-
-                <div class="contact-item">
-                    <img class="contact-icon" alt="Material icon" src="./icons/map_search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
-                    <h3>Adresse du cabinet</h3>
-                    <p><a href="https://maps.app.goo.gl/WcVAAxX3e6EZfyx26">Av. de Frontenex 34<br>1207 Genève</a></p>
-                </div>
-
-                <div class="contact-item">
-                    <img class="contact-icon" alt="Material icon" src="./icons/call_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
-                    <h3>Téléphone</h3>
-                    <p>+41 76 317 08 16</p>
-                </div>
-
-                <div class="contact-item">
-                    <img class="contact-icon" alt="Material icon" src="./icons/mail_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
-                    <h3>Email</h3>
-                    <p><a href="mailto:hydrotherapie.eaux.vives@gmail.com">hydrotherapie.eaux.vives&ZeroWidthSpace;@gmail.com</a></p>
-                </div>
-
-                <div class="contact-item">
-                    <img class="contact-icon" alt="Material icon" src="./icons/tram_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
-                    <h3>Accès transports publics</h3>
-                    <p><a href="https://maps.app.goo.gl/gfvDAaByek5fN9tR6">Place des Eaux-Vives</a><br>2, 6, 9, 10, 25, 33, E</p>
-                    <p><a href="https://maps.app.goo.gl/Swd7Dh6QACS8bWjS8">Genève-Eaux-Vives-Gare</a><br>11, 12, 17, EV</p>
-                </div>
-
-                <div class="contact-item">
-                    <img class="contact-icon" alt="Material icon" src="./icons/directions_car_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
-                    <h3>Accès véhicules</h3>
-                    <p><a href="https://maps.app.goo.gl/NgxsWAXd547WGxo36">Parking du centre commercial des Eaux-Vives
-                        </a></p>
-                </div>
-
-                <div class="contact-item">
-                    <img class="contact-icon" alt="Material icon" src="./icons/calendar_clock_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
-                    <h3>Horaires</h3>
-                    <p>Lun-Ven 8 h – 18 h</p>
-                </div>
-
-                <div class="contact-item">
-                    <img class="contact-icon" alt="Material icon" src="./icons/handshake_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
-                    <h3>CGV</h3>
-                    <p>Si vous désirez modifier ou annuler un rendez-vous, je vous prie de m’en informer au plus tard deux jours ouvrables à l’avance.</p>
-                    <p>Passé ce délai, le rendez-vous vous sera facturé intégralement.</p>
-                    <p>J’accepte les payements en espèces, en francs suisses et sur place.</p>
-                </div>
-
-                <div class="contact-item">
-                    <img class="contact-icon" alt="Material icon" src="./icons/digital_wellbeing_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
-                    <h3>Affiliations</h3>
-                    <p style="text-align:center; margin-top: 1em">
-                        <a href="https://asca.ch/therapeutes-asca/detail-du-therapeute/Caroline-Erni_601591/">
-                            <img src="./images/logo-asca.svg" alt="logo ASCA" style="width:100px">
-                            <br>Agréée par l’ASCA
-                        </a>
-                    </p>
-                    <p style="text-align:center; margin-top: 1em">
-                        <a href="https://colon.ch/?lang=fr">
-                            <img src="./images/logo-colon-ch.png" alt="logo colon.ch" style="width:100px">
-                            <br>Membre de colon.ch
-                        </a>
-                    </p>
-                </div>
+                {{ with .Site.GetPage "05/contact" }}
+                {{ .Content | safeHTML }}
+                {{ end }}
             </div>
         </div>
     </div>
 
-    <div style="text-align:center; margin:10rem 0 5rem">
-        <p><small>Webmaster <a href="https://jeanmonod.net/" target="_blank">Nicolas Jeanmonod</a></small></p>
-    </div>
+    <!-- Section Footer -->
+    {{ with .Site.GetPage "06/footer" }}
+    {{ .Content | safeHTML }}
+    {{ end }}
 </section>
+
 
 {{ end }}

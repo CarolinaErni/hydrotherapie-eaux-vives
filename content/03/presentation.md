@@ -1,7 +1,6 @@
 ---
 title: "Présentation"
 slug: "presentation"
-weight: 2
 ---
 
 J’ai grandi à Lucerne et très vite je me suis intéressée aux professions médicales et paramédicales.
@@ -10,9 +9,9 @@ Cette méthode permet de purifier la personne jusqu’à toucher son âme.
 
 *Carolina Erni*
 
-![](./images/carolina-erni.webp)
+![Carolina Erni](./images/carolina-erni.webp)
 
-![](./images/fleur-de-vie.svg)
+![Fleur de vie](./images/fleur-de-vie.svg)
 
 > « Ton corps est ton temple, conserve-le propre et pur, afin que l’âme puisse y vivre. »
 >

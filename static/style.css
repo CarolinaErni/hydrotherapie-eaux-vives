@@ -29,7 +29,7 @@ a[target="_blank"]:not(.header a)::after {
 a,
 a :visited {
     color: inherit;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 .logo {
@@ -387,6 +387,10 @@ a[data-section] {
     line-height: 1.6;
 }
 
+.service-card blockquote {
+    font-style: italic;
+}
+
 /* Contact Section */
 #contact-infos {
     background: #fef9e7;
@@ -419,13 +423,8 @@ a[data-section] {
     width: 60px;
 }
 
-.duree {
-    margin-top: 2em;
-}
-
-.duree,
-.prix {
-    font-family: monospace;
+.service-card pre {
+    margin: 2em 0;
 }
 
 .citation {

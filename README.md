@@ -14,7 +14,6 @@ brew install hugo
 # lancer le serveur de dev
 hugo server -D
 ```
-
 Pour déployer sur GitHub Pages :
 - Pousser la branche `hugo` sur le dépôt `NicHub/hydrotherapie-eaux-vives-hugo`.
 - Le workflow `.github/workflows/deploy.yml` générera `public/` et poussera sur `gh-pages`.
@@ -42,7 +41,6 @@ hugo --gc --minify
 # lancer serveur et vérifier le rendu
 hugo server -D --disableFastRender
 ```
-
 # HYDROTHÉRAPIE EAUX-VIVES
 
 ## Maquette
