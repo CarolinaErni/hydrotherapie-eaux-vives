@@ -16,4 +16,4 @@ Cette méthode permet de purifier la personne jusqu’à toucher son âme.
 
 > « Ton corps est ton temple, conserve-le propre et pur, afin que l’âme puisse y vivre. »
 >
-> — B.K.S. Iyengar —
+> — B.K.S. Iyengar
