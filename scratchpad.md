@@ -39,3 +39,7 @@
 ##  Autres
 
 -   https://pixabay.com
+
+## JSON-LD
+
+-   https://developers.google.com/search/docs/appearance/structured-data?hl=fr
