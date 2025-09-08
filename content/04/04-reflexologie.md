@@ -7,7 +7,7 @@ slug: "reflexologie"
 
 ### Réflexologie douce méthode Nick Durrer
 
-La réflexologie douce selon la méthode Nick Durrer représente une approche révolutionnaire de la réflexologie plantaire, développée par ce thérapeute suisse visionnaire qui a consacré sa vie à perfectionner cette technique ancestrale. Cette méthode unique combine la sagesse traditionnelle de la réflexologie avec une approche moderne, douce et profondément respectueuse de l’être humain dans sa globalité.
+La réflexologie douce selon la méthode Nick Durrer est une approche révolutionnaire de la réflexologie plantaire, développée par ce thérapeute suisse visionnaire qui a consacré sa vie à perfectionner cette technique ancestrale. Cette méthode unique combine la sagesse traditionnelle de la réflexologie avec une approche moderne, douce et profondément respectueuse de l’être humain dans sa globalité.
 
 Nick Durrer, reconnu internationalement pour ses innovations dans le domaine de la réflexologie, a développé une approche qui se distingue par sa finesse, sa précision, et surtout par sa capacité à créer un état de détente profonde tout en stimulant efficacement les mécanismes d’autorégulation de l’organisme. Sa méthode repose sur une compréhension subtile des correspondances entre les zones réflexes du pied et l’ensemble des systèmes corporels.
 

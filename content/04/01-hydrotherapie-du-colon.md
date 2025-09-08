@@ -23,8 +23,6 @@ De nombreuses personnes rapportent une amélioration significative de leur éner
 
 Cette approche holistique considère le corps dans sa globalité, reconnaissant que la santé intestinale influence l’ensemble de nos systèmes organiques. Chaque séance est personnalisée selon vos besoins spécifiques, votre état de santé et vos objectifs de bien-être. Un accompagnement bienveillant et professionnel vous guide tout au long du processus, dans le respect absolu de votre confort et de votre dignité.
 
-<br>
-
 > Une séance d’hydrothérapie se prépare deux jours à l’avance.
 >
 > Vous pouvez consulter le protocole de préparation sur cette page :

@@ -7,7 +7,7 @@ slug: "massage-detente"
 
 ### Massage de détente
 
-Le massage détente représente une approche thérapeutique unique et innovante qui s’appuie sur la sagesse innée du corps et la puissance rythmique du cœur pour induire un état de relaxation profonde et libérer les tensions accumulées. Cette technique révolutionnaire reconnaît que chaque individu possède son propre rythme cardiaque unique, véritable métronome biologique qui influence l’ensemble de ses fonctions physiologiques et énergétiques.
+Le massage détente offre une approche thérapeutique unique et innovante qui s’appuie sur la sagesse innée du corps et la puissance rythmique du cœur pour induire un état de relaxation profonde et libérer les tensions accumulées. Cette technique révolutionnaire reconnaît que chaque individu possède son propre rythme cardiaque unique, véritable métronome biologique qui influence l’ensemble de ses fonctions physiologiques et énergétiques.
 
 Le cœur, bien plus qu’une simple pompe mécanique, constitue un centre énergétique et émotionnel fondamental de notre être. Les recherches modernes en cardiologie ont révélé que le cœur possède son propre système nerveux, composé de plus de 40 000 neurones, lui permettant de prendre des « décisions » indépendamment du cerveau. Cette découverte révolutionnaire confirme les intuitions ancestrales qui plaçaient le cœur au centre de notre être émotionnel et spirituel.
 

@@ -7,7 +7,7 @@ slug: "massage-du-dos"
 
 ### Massage du dos Dorn et Breuss
 
-Le massage du dos selon les méthodes Dorn et Breuss représente une approche thérapeutique unique qui combine deux techniques complémentaires développées dans les Alpes autrichiennes et allemandes. Cette synergie thérapeutique, fruit de l’expérience et de l’intuition de deux praticiens exceptionnels, offre une solution naturelle et efficace pour les troubles vertébraux et les tensions dorsales.
+Le massage du dos selon les méthodes Dorn et Breuss est une approche thérapeutique unique qui combine deux techniques complémentaires développées dans les Alpes autrichiennes et allemandes. Cette synergie thérapeutique, fruit de l’expérience et de l’intuition de deux praticiens exceptionnels, offre une solution naturelle et efficace pour les troubles vertébraux et les tensions dorsales.
 
 La méthode Dorn, développée par Dieter Dorn, charpentier et guérisseur allemand, constitue une technique manuelle douce et respectueuse pour corriger les déplacements vertébraux et rétablir l’alignement naturel de la colonne vertébrale. Cette approche révolutionnaire se distingue par sa simplicité apparente et son efficacité remarquable, basée sur une compréhension profonde de la biomécanique vertébrale et des connexions subtiles entre la colonne et les organes internes.
 
