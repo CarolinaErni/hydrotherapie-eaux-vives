@@ -382,13 +382,32 @@ a[data-section] {
     color: #333;
 }
 
-.service-card p {
+.service-card p:not(:first-of-type):not(blockquote p) {
     color: #666;
-    line-height: 1.6;
+    line-height: 1.2;
+    text-indent: 1em;
+    text-align: justify;
+    margin: 0.5em 0;
 }
 
-.service-card blockquote {
+.service-card
+    p:not(:first-of-type):not(:last-of-type):not(blockquote p)::after {
+    content: "❊";
+    display: block;
+    text-align: center;
+    margin: 0.5em;
+    color: color-mix(in srgb, var(--color-1) 50%, transparent);
+}
+
+.service-card blockquote p {
     font-style: italic;
+    text-align: center;
+    text-indent: 0em;
+    margin: 0;
+    line-height: 1.2;
+}
+.service-card blockquote {
+    margin: 2em;
 }
 
 /* Contact Section */
