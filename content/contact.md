@@ -57,13 +57,13 @@ weight: 3
         <h3>Affiliations</h3>
         <p style="text-align:center; margin-top: 1em">
             <a href="https://asca.ch/therapeutes-asca/detail-du-therapeute/Caroline-Erni_601591/">
-                <img src="/images/logo-asca.svg" alt="logo ASCA" style="width:100px">
+                <img src="./images/logo-asca.svg" alt="logo ASCA" style="width:100px">
                 <br>Agréée par l’ASCA
             </a>
         </p>
         <p style="text-align:center; margin-top: 1em">
             <a href="https://colon.ch/?lang=fr">
-                <img src="/images/logo-colon-ch.png" alt="logo colon.ch" style="width:100px">
+                <img src="./images/logo-colon-ch.png" alt="logo colon.ch" style="width:100px">
                 <br>Membre de colon.ch
             </a>
         </p>
