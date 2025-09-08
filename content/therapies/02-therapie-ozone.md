@@ -1,7 +1,6 @@
 ---
 title: "Thérapie à l’ozone"
 slug: "therapie-ozone"
-weight: 2
 ---
 
 ![Thérapie à l’ozone](./images/hydrotherapie-ozone.jpg)
@@ -24,9 +23,8 @@ En complément à l’hydrothérapie du côlon, la thérapie à l’ozone créé
 
 L’ozone possède également des propriétés antimicrobiennes naturelles, agissant contre les bactéries pathogènes, virus, champignons et parasites, tout en respectant la flore bénéfique lorsqu’utilisé correctement. Cette action sélective contribue à rétablir l’équilibre microbien de l’organisme sans les effets secondaires souvent associés aux traitements conventionnels.
 
-Les effets de la thérapie à l’ozone s’installent progressivement, créant un cercle vertueux de vitalité et de bien\-être. De nombreuses personnes rapportent une amélioration significative de leur énergie, de leur résistance aux infections, de leur qualité de sommeil, et de leur bien\-être général. Cette approche naturelle et non invasive offre une alternative précieuse pour optimiser votre santé de manière globale et durable.
+Les effets de la thérapie à l’ozone s’installent progressivement, créant un cercle vertueux de vitalité et de bien-être. De nombreuses personnes rapportent une amélioration significative de leur énergie, de leur résistance aux infections, de leur qualité de sommeil, et de leur bien-être général. Cette approche naturelle et non invasive offre une alternative précieuse pour optimiser votre santé de manière globale et durable.
 
 En complément à l’hydrothérapie
 
 80 CHF
-

@@ -1,7 +1,6 @@
 ---
 title: "Sonothérapie (Diapasons)"
 slug: "sonotherapie-diapasons"
-weight: 7
 ---
 
 ![Thérapie par le son des diapasons](./images/sonotherapie-diapasons.jpg)
@@ -20,13 +19,13 @@ La séance débute par une évaluation énergétique intuitive permettant d’id
 
 L’effet des vibrations se ressent immédiatement : une sensation de détente profonde envahit le corps, les tensions se relâchent, et un sentiment de paix intérieure s’installe progressivement. Les fréquences sonores agissent comme un massage cellulaire interne, stimulant la microcirculation, favorisant l’oxygénation des tissus, et optimisant les échanges métaboliques au niveau cellulaire.
 
-Sur le plan émotionnel, la thérapie au diapason exerce des effets remarquables pour apaiser l’anxiété, libérer les émotions bloquées, et restaurer l’équilibre psychique. Certaines fréquences spécifiques agissent directement sur le système nerveux, favorisant la production de neurotransmetteurs du bien\-être et induisant des états modifiés de conscience propices à la guérison et à la transformation personnelle.
+Sur le plan émotionnel, la thérapie au diapason exerce des effets remarquables pour apaiser l’anxiété, libérer les émotions bloquées, et restaurer l’équilibre psychique. Certaines fréquences spécifiques agissent directement sur le système nerveux, favorisant la production de neurotransmetteurs du bien-être et induisant des états modifiés de conscience propices à la guérison et à la transformation personnelle.
 
 L’aspect énergétique de cette thérapie mérite une attention particulière. Les diapasons agissent comme des « accordeurs » pour notre système énergétique, harmonisant les chakras, purifiant l’aura, et rétablissant la libre circulation de l’énergie vitale dans l’ensemble du corps. Cette harmonisation énergétique se traduit par une amélioration notable de la vitalité, une meilleure résistance au stress, et un sentiment renouvelé de connexion avec son essence profonde.
 
 La thérapie au diapason s’avère particulièrement efficace pour traiter les troubles liés au stress, les déséquilibres émotionnels, les douleurs chroniques, les troubles du sommeil, et les problèmes de concentration. Elle constitue également un excellent complément aux autres thérapies, potentialisant leurs effets par l’harmonisation vibratoire qu’elle procure.
 
-Chaque séance est unique et personnalisée selon les besoins spécifiques de la personne et sa réceptivité aux différentes fréquences. Cette approche individualisée permet d’obtenir des résultats optimaux, respectant le rythme naturel de chacun et favorisant une transformation progressive et durable vers un état d’harmonie et de bien\-être global.
+Chaque séance est unique et personnalisée selon les besoins spécifiques de la personne et sa réceptivité aux différentes fréquences. Cette approche individualisée permet d’obtenir des résultats optimaux, respectant le rythme naturel de chacun et favorisant une transformation progressive et durable vers un état d’harmonie et de bien-être global.
 
 1 h 10
 

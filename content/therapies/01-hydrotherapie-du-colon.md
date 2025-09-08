@@ -1,7 +1,6 @@
 ---
 title: "Hydrothérapie du côlon"
 slug: "hydrotherapie-du-colon"
-weight: 1
 ---
 
 ![Hydrothérapie du côlon](./images/hydrotherapie-colon.jpg)
@@ -18,17 +17,18 @@ L’hydrothérapie du côlon agit comme un « grand nettoyage de printemps » 
 
 Le processus se déroule par cycles successifs de remplissage et de vidange, permettant un nettoyage progressif et en profondeur de l’ensemble du côlon. Contrairement aux lavements traditionnels qui n’atteignent que la partie basse du côlon, l’hydrothérapie permet de nettoyer la totalité du gros intestin, y compris le côlon ascendant et transverse, zones habituellement difficiles d’accès.
 
-Les bienfaits de cette thérapie s’étendent bien au\-delà du simple confort digestif. En libérant le côlon de ses surcharges, l’hydrothérapie favorise une meilleure absorption des nutriments essentiels, optimise le fonctionnement du système immunitaire (dont 70 % des cellules se trouvent dans l’intestin), et permet au corps de mieux éliminer les toxines par ses voies naturelles d’élimination.
+Les bienfaits de cette thérapie s’étendent bien au-delà du simple confort digestif. En libérant le côlon de ses surcharges, l’hydrothérapie favorise une meilleure absorption des nutriments essentiels, optimise le fonctionnement du système immunitaire (dont 70 % des cellules se trouvent dans l’intestin), et permet au corps de mieux éliminer les toxines par ses voies naturelles d’élimination.
 
-De nombreuses personnes rapportent une amélioration significative de leur énergie vitale, une sensation de légèreté retrouvée, un teint plus lumineux, une digestion facilitée, et même une amélioration de leur état émotionnel. En effet, l’intestin étant considéré comme notre « deuxième cerveau » en raison de ses nombreuses connexions nerveuses, son bon fonctionnement influence directement notre bien\-être psychique.
+De nombreuses personnes rapportent une amélioration significative de leur énergie vitale, une sensation de légèreté retrouvée, un teint plus lumineux, une digestion facilitée, et même une amélioration de leur état émotionnel. En effet, l’intestin étant considéré comme notre « deuxième cerveau » en raison de ses nombreuses connexions nerveuses, son bon fonctionnement influence directement notre bien-être psychique.
 
-Cette approche holistique considère le corps dans sa globalité, reconnaissant que la santé intestinale influence l’ensemble de nos systèmes organiques. Chaque séance est personnalisée selon vos besoins spécifiques, votre état de santé et vos objectifs de bien\-être. Un accompagnement bienveillant et professionnel vous guide tout au long du processus, dans le respect absolu de votre confort et de votre dignité.
+Cette approche holistique considère le corps dans sa globalité, reconnaissant que la santé intestinale influence l’ensemble de nos systèmes organiques. Chaque séance est personnalisée selon vos besoins spécifiques, votre état de santé et vos objectifs de bien-être. Un accompagnement bienveillant et professionnel vous guide tout au long du processus, dans le respect absolu de votre confort et de votre dignité.
 
+<br>
 
-*Une séance d’hydrothérapie se prépare deux jours à l’avance.
-Vous pouvez consulter le protocole de préparation sur cette page :*
+_Une séance d’hydrothérapie se prépare deux jours à l’avance.<br>
+Vous pouvez consulter le protocole de préparation sur cette page :_
 
-[Préparation à votre séance d’hydrothérapie du côlon](preparation-hydrotherapie.html)
+<p><a href="preparation-hydrotherapie.html" style="text-decoration: underline;">Préparation à votre séance d’hydrothérapie du côlon</a></p>
 
 1 h 45
 

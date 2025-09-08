@@ -1,7 +1,6 @@
 ---
 title: "Massage détente"
 slug: "massage-detente"
-weight: 6
 ---
 
 ![Massage de détente](./images/massage-detente.jpg)
@@ -20,13 +19,13 @@ La technique débute par une phase d’écoute et de synchronisation, où le th�
 
 Les mouvements de massage suivent ensuite naturellement ce rythme cardiaque, créant une danse thérapeutique où chaque geste s’harmonise avec les pulsations naturelles du cœur. Cette approche rythmée induit progressivement un état de résonance où l’ensemble du système nerveux se synchronise sur ce rythme optimal, favorisant un relâchement profond des tensions tant physiques que psychiques.
 
-L’effet de cette synchronisation dépasse largement la simple relaxation musculaire. En harmonisant le rythme cardiaque, cette technique influence positivement l’ensemble du système endocrinien, favorisant la libération d’hormones du bien\-être comme les endorphines, la sérotonine, et l’ocytocine, tout en diminuant la production d’hormones de stress comme le cortisol et l’adrénaline.
+L’effet de cette synchronisation dépasse largement la simple relaxation musculaire. En harmonisant le rythme cardiaque, cette technique influence positivement l’ensemble du système endocrinien, favorisant la libération d’hormones du bien-être comme les endorphines, la sérotonine, et l’ocytocine, tout en diminuant la production d’hormones de stress comme le cortisol et l’adrénaline.
 
-Cette régulation hormonale naturelle se traduit par une amélioration significative de nombreuses fonctions corporelles : diminution de la tension artérielle, régulation de la respiration, amélioration de la digestion, optimisation du système immunitaire, et bien sûr, un sentiment profond de détente et de bien\-être. Ces effets se prolongent bien au\-delà de la séance, créant un état d’équilibre durable qui influence positivement la qualité de vie quotidienne.
+Cette régulation hormonale naturelle se traduit par une amélioration significative de nombreuses fonctions corporelles : diminution de la tension artérielle, régulation de la respiration, amélioration de la digestion, optimisation du système immunitaire, et bien sûr, un sentiment profond de détente et de bien-être. Ces effets se prolongent bien au-delà de la séance, créant un état d’équilibre durable qui influence positivement la qualité de vie quotidienne.
 
 La libération des tensions constitue l’un des aspects les plus remarquables de cette technique. Notre corps accumule quotidiennement de multiples tensions : tensions musculaires liées aux postures et aux gestes répétitifs, tensions émotionnelles résultant du stress et des contrariétés, tensions énergétiques causées par les déséquilibres de notre mode de vie moderne. Ces tensions, lorsqu’elles s’installent durablement, créent des blocages qui perturbent la libre circulation de l’énergie vitale et peuvent engendrer divers troubles fonctionnels.
 
-Le massage détente rythmé par le cœur agit comme une clé universelle capable de déverrouiller ces différents types de tensions. La synchronisation cardiaque induit un état de lâcher\-prise profond où le corps peut naturellement libérer ses crispations et retrouver sa fluidité naturelle. Cette libération s’opère progressivement, couche après couche, permettant au corps d’exprimer et d’évacuer les tensions accumulées parfois depuis des années.
+Le massage détente rythmé par le cœur agit comme une clé universelle capable de déverrouiller ces différents types de tensions. La synchronisation cardiaque induit un état de lâcher-prise profond où le corps peut naturellement libérer ses crispations et retrouver sa fluidité naturelle. Cette libération s’opère progressivement, couche après couche, permettant au corps d’exprimer et d’évacuer les tensions accumulées parfois depuis des années.
 
 1 h
 

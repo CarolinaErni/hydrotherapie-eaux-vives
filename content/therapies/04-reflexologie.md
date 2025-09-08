@@ -1,7 +1,6 @@
 ---
 title: "Réflexologie douce"
 slug: "reflexologie"
-weight: 4
 ---
 
 ![Réflexologie douce méthode Nick Durrer](./images/reflexologie.jpg)
@@ -20,13 +19,13 @@ Le protocole de traitement débute par une phase d’accueil et de préparation,
 
 Le massage proprement dit suit une séquence méthodique qui stimule progressivement l’ensemble des zones réflexes. Chaque organe, chaque système est ainsi « contacté » et harmonisé grâce aux stimulations précises appliquées sur les zones correspondantes du pied. Cette approche systémique permet de rétablir l’équilibre énergétique global, stimulant les mécanismes naturels d’autorégulation et de guérison.
 
-L’utilisation d’une crème de soin spécialement formulée avec des fleurs de Bach et des huiles essentielles constitue l’une des particularités remarquables de cette méthode. Les fleurs de Bach, ces élixirs floraux développés par le Dr Edward Bach, agissent sur les états émotionnels et énergétiques, apportant une dimension psycho\-émotionnelle au traitement. Les huiles essentielles, choisies pour leurs propriétés thérapeutiques spécifiques, pénètrent à travers la peau et exercent leurs effets bénéfiques tant au niveau local que systémique.
+L’utilisation d’une crème de soin spécialement formulée avec des fleurs de Bach et des huiles essentielles constitue l’une des particularités remarquables de cette méthode. Les fleurs de Bach, ces élixirs floraux développés par le Dr Edward Bach, agissent sur les états émotionnels et énergétiques, apportant une dimension psycho-émotionnelle au traitement. Les huiles essentielles, choisies pour leurs propriétés thérapeutiques spécifiques, pénètrent à travers la peau et exercent leurs effets bénéfiques tant au niveau local que systémique.
 
 Cette synergie entre le massage réflexe, les fleurs de Bach, et les huiles essentielles crée un traitement d’une richesse thérapeutique exceptionnelle. Chaque élément potentialise les effets des autres, créant une résonance thérapeutique qui agit simultanément sur les plans physique, émotionnel, et énergétique.
 
 Les effets de la réflexologie douce se manifestent à plusieurs niveaux. Sur le plan physique, elle stimule la circulation sanguine et lymphatique, améliore l’oxygénation des tissus, favorise l’élimination des toxines, et optimise le fonctionnement de tous les organes. De nombreuses personnes rapportent une amélioration significative de leur digestion, de leur sommeil, de leur énergie vitale, et de leurs fonctions d’élimination.
 
-L’aspect énergétique de la méthode Nick Durrer mérite une attention particulière. Cette approche considère que les blocages énergétiques sont souvent à l’origine des dysfonctionnements physiques et émotionnels. En rétablissant la libre circulation de l’énergie vitale, la réflexologie douce contribue à harmoniser l’ensemble de l’être, créant les conditions optimales pour la santé et le bien\-être.
+L’aspect énergétique de la méthode Nick Durrer mérite une attention particulière. Cette approche considère que les blocages énergétiques sont souvent à l’origine des dysfonctionnements physiques et émotionnels. En rétablissant la libre circulation de l’énergie vitale, la réflexologie douce contribue à harmoniser l’ensemble de l’être, créant les conditions optimales pour la santé et le bien-être.
 
 1 h
 
