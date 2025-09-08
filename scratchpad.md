@@ -43,5 +43,3 @@
 ## JSON-LD
 
 -   https://developers.google.com/search/docs/appearance/structured-data?hl=fr
-
-fausse modif
