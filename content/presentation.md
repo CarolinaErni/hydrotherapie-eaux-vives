@@ -10,9 +10,9 @@ Cette méthode permet de purifier la personne jusqu’à toucher son âme.
 
 *Carolina Erni*
 
-![](/images/carolina-erni.webp)
+![](./images/carolina-erni.webp)
 
-![](/images/fleur-de-vie.svg)
+![](./images/fleur-de-vie.svg)
 
 > « Ton corps est ton temple, conserve-le propre et pur, afin que l’âme puisse y vivre. »
 >
