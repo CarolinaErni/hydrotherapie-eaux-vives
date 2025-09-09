@@ -22,7 +22,6 @@ body {
     color: #333;
     font-family: "Source Sans 3", monospace;
     font-weight: 400;
-    /* line-height: 1.6; */
     overflow-x: hidden;
 }
 
@@ -362,11 +361,12 @@ a[data-section] {
 
 .service-card
     p:not(:first-of-type):not(:last-of-type):not(blockquote p)::after {
+    color: color-mix(in srgb, var(--color-1) 50%, transparent);
     content: "❊";
     display: block;
-    text-align: center;
+    font-size: 120%;
     margin: 0.5em;
-    color: color-mix(in srgb, var(--color-1) 50%, transparent);
+    text-align: center;
 }
 
 .service-card blockquote p {
@@ -440,16 +440,14 @@ button:hover {
 }
 
 footer {
-    margin: 0;
-    padding: 0;
+    align-items: center;
     background-color: var(--color-1);
     color: #fef9e7;
-    height: 4em;
     display: flex;
-    align-items: center;
+    height: 4em;
     justify-content: center;
-}
-footer p {
+    margin: 0;
+    padding: 0;
 }
 
 /* Animations */
@@ -523,6 +521,10 @@ footer p {
         padding: 0;
     }
 
+    #presentation blockquote {
+        font-size: 2.2rem;
+    }
+
     .section-title {
         font-size: 2rem;
     }
@@ -562,5 +564,9 @@ footer p {
 
     #accueil h1 {
         font-size: 1.6rem;
+    }
+
+    .service-card p:not(:first-of-type):not(blockquote p) {
+        text-indent: 0;
     }
 }
