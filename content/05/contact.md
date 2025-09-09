@@ -24,14 +24,14 @@ slug: "contact"
 <div class="contact-item">
     <img class="contact-icon" alt="Material icon" src="./icons/tram_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
     <h3>Accès transports publics</h3>
-    <p><a href="https://maps.app.goo.gl/gfvDAaByek5fN9tR6">Place des Eaux-Vives</a><br>2, 6, 9, 10, 25, 33, E</p>
-    <p><a href="https://maps.app.goo.gl/Swd7Dh6QACS8bWjS8">Genève-Eaux-Vives-Gare</a><br>11, 12, 17, EV</p>
+    <p><a href="https://maps.app.goo.gl/gfvDAaByek5fN9tR6">Place des Eaux‑Vives</a><br>2, 6, 9, 10, 25, 33, E</p>
+    <p><a href="https://maps.app.goo.gl/Swd7Dh6QACS8bWjS8">Genève-Eaux‑Vives-Gare</a><br>11, 12, 17, EV</p>
 </div>
 
 <div class="contact-item">
     <img class="contact-icon" alt="Material icon" src="./icons/directions_car_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
     <h3>Accès véhicules</h3>
-    <p><a href="https://maps.app.goo.gl/NgxsWAXd547WGxo36">Parking du centre commercial des Eaux-Vives</a></p>
+    <p><a href="https://maps.app.goo.gl/NgxsWAXd547WGxo36">Parking du centre commercial des Eaux‑Vives</a></p>
 </div>
 
 <div class="contact-item">

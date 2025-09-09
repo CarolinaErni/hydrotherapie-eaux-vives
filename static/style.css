@@ -21,11 +21,10 @@ body {
     overflow-x: hidden;
 }
 
-a[target="_blank"]:not(.header a)::after {
+[target="_blank"]:not(.header a)::after {
     content: url("./icons/up-right-from-square-solid-full.svg");
-    display: inline;
+    display: inline-block;
     margin-left: 8px;
-    position: fixed;
     width: 21px;
     transform: translateY(3px);
 }
@@ -33,7 +32,6 @@ a[target="_blank"]:not(.header a)::after {
 a,
 a :visited {
     color: inherit;
-    /* text-decoration: none; */
 }
 
 .logo {
@@ -185,11 +183,6 @@ a[data-section] {
     overflow-wrap: break-word;
     padding: 2em 1em;
     width: 100%;
-    /*
-    display: block;
-    max-width: 90%;
-    display: none;
-    */
 }
 
 .section-title {
@@ -298,10 +291,7 @@ a[data-section] {
     margin: 3em auto 2em;
 }
 
-/*
-    Section therapies-massages
- */
-
+/* Section therapies-massages */
 #therapies-massages {
     background: linear-gradient(
         135deg,
@@ -395,19 +385,19 @@ a[data-section] {
 /* Contact Section */
 #contact-infos {
     background: #fef9e7;
+    padding-bottom: 10em;
 }
 
 .contact-items {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
-    margin-top: 3rem;
     word-wrap: break-word;
 }
 
 .contact-item {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .contact-icon {
@@ -545,6 +535,10 @@ footer p {
 
     .parallax-bg {
         background-attachment: scroll;
+    }
+
+    .contact-items {
+        gap: 0.11rem;
     }
 }
 
