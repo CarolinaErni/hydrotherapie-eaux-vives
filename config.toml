@@ -1,5 +1,5 @@
 
-baseURL             = "https://NicHub.github.io/hydrotherapie-eaux-vives-hugo/"
+baseURL             = "https://carolinaerni.github.io/hydrotherapie-eaux-vives/"
 languageCode        = "fr-FR"
 title               = "Cabinet Carolina Erni — Hydrothérapie & massages"
 canonifyurls        = true
