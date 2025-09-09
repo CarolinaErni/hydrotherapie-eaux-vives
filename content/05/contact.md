@@ -31,8 +31,7 @@ slug: "contact"
 <div class="contact-item">
     <img class="contact-icon" alt="Material icon" src="./icons/directions_car_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
     <h3>Accès véhicules</h3>
-    <p><a href="https://maps.app.goo.gl/NgxsWAXd547WGxo36">Parking du centre commercial des Eaux-Vives
-        </a></p>
+    <p><a href="https://maps.app.goo.gl/NgxsWAXd547WGxo36">Parking du centre commercial des Eaux-Vives</a></p>
 </div>
 
 <div class="contact-item">
