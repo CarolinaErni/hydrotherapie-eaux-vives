@@ -179,9 +179,9 @@ a[data-section] {
     border: 2px solid rgba(107, 59, 33, 0.5);
     margin: 2em 0;
     overflow-wrap: break-word;
-    padding: 2em 4em;
-    /*
+    padding: 2em 1em;
     width: 100%;
+    /*
     display: block;
     max-width: 90%;
     display: none;
@@ -276,6 +276,7 @@ a[data-section] {
 
 #presentation img {
     margin-top: 2rem;
+    max-width: 100%;
     width: 350px;
     height: 350px;
 }
@@ -490,6 +491,10 @@ button:hover {
         display: flex;
     }
 
+    #accueil h1 {
+        font-size: 2.5rem;
+    }
+
     .section-title {
         font-size: 2rem;
     }
@@ -518,5 +523,9 @@ button:hover {
         font-size: 80%;
         line-height: 1;
         margin: 0;
+    }
+
+    #accueil h1 {
+        font-size: 1.6rem;
     }
 }
