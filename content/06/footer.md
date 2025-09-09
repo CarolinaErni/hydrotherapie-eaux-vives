@@ -1,1 +1,3 @@
-• Webmaster [Nicolas Jeanmonod](https://jeanmonod.net/) •
+Webmaster
+•
+[Nicolas Jeanmonod](https://jeanmonod.net/)
