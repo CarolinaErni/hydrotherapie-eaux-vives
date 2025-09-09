@@ -180,7 +180,7 @@ a[data-section] {
     border-radius: 10px;
     border: 2px solid rgba(107, 59, 33, 0.5);
     margin: 2em 0;
-    overflow-wrap: break-word;
+    overflow-wrap: normal;
     padding: 2em 1em;
     width: 100%;
 }
