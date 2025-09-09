@@ -451,6 +451,19 @@ button:hover {
     background-color: #b07a50;
 }
 
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-1);
+    color: #fef9e7;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p {
+}
+
 /* Animations */
 @keyframes fadeInUp {
     from {
@@ -542,7 +555,7 @@ button:hover {
     }
 
     .logo-img img {
-        height: 3.0rem;
+        height: 3rem;
         margin: 0;
     }
 

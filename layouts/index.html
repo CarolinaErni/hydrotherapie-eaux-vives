@@ -67,12 +67,13 @@
             </div>
         </div>
     </div>
+</section>
 
-    <!-- Section Footer -->
+<!-- Section Footer -->
+<footer id="footer">
     {{ with .Site.GetPage "06/footer" }}
     {{ .Content | safeHTML }}
     {{ end }}
-</section>
-
+</footer>
 
 {{ end }}
