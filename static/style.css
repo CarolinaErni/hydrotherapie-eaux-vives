@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shalimar&display=swap");
 
 :root {
     --color-1: #d4a574;
@@ -285,8 +285,8 @@ a[data-section] {
 }
 
 #presentation blockquote {
-    font-family: "Marck Script";
-    font-size: 2rem;
+    font-family: "Shalimar";
+    font-size: 4rem;
     font-weight: bold;
     margin: 3em auto 2em;
 }
@@ -416,13 +416,6 @@ a[data-section] {
 
 .service-card pre {
     margin: 2em 0;
-}
-
-.citation {
-    font-family: "Marck Script";
-    font-size: 200%;
-    font-weight: bold;
-    margin: 3em auto 2em;
 }
 
 /* Style pour le bouton "Afficher plus" */
