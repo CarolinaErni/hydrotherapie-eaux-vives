@@ -60,10 +60,10 @@ a :visited {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    line-height: 1;
 }
 
 .logo-text p:nth-of-type(1) {
-    line-height: 1;
     margin-top: 0.5rem;
     padding: 0;
     vertical-align: middle;
@@ -72,7 +72,6 @@ a :visited {
 .logo-text p:nth-last-of-type(1) {
     color: color-mix(in srgb, currentColor 80%, black 20%);
     font-size: 40%;
-    line-height: 0.8;
     margin: 0;
     padding: 0;
     text-transform: uppercase;
@@ -240,6 +239,7 @@ a[data-section] {
     animation: fadeInUp 1s ease;
     font-size: 4rem;
     margin-bottom: 1rem;
+    padding: 0 3em;
 }
 
 #accueil p {
@@ -361,7 +361,7 @@ a[data-section] {
     color: #666;
     line-height: 1.2;
     text-indent: 1em;
-    text-align: justify;
+    text-align: left;
     margin: 0.5em 0;
 }
 
@@ -519,6 +519,7 @@ button:hover {
 
     #accueil h1 {
         font-size: 2.5rem;
+        padding: 0;
     }
 
     .section-title {
@@ -541,13 +542,16 @@ button:hover {
     }
 
     .logo-img img {
-        height: 2.5rem;
+        height: 3.0rem;
         margin: 0;
+    }
+
+    .logo-text p {
+        line-height: 1;
     }
 
     .logo-text p:nth-of-type(1) {
         font-size: 80%;
-        line-height: 1;
         margin: 0;
     }
 

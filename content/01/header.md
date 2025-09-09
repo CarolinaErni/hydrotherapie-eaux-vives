@@ -6,7 +6,7 @@
             </div>
             <div class="logo-text">
                 <p>Carolina Erni</p>
-                <p>hydrotherapie-eaux-vives.ch</p>
+                <p>hydrotherapie-eaux‑vives.ch</p>
             </div>
         </a>
         <nav>
