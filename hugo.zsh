@@ -12,6 +12,7 @@ echo -e "\n\n$FULL_URL\n\n"
 hugo server             \
     -D                  \
     --gc                \
+    --minify            \
     --disableFastRender \
     --baseURL=$BASE_URL \
     --bind=$IP          \

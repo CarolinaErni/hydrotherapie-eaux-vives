@@ -172,7 +172,6 @@ function truncateServiceCards() {
 
             const toggleButton = document.createElement("button");
             toggleButton.textContent = "Afficher plus";
-            toggleButton.style.marginLeft = "10px";
 
             toggleButton.addEventListener("click", function () {
                 if (fullTextContainer.style.display === "none") {

@@ -10,6 +10,10 @@
     padding: 0;
 }
 
+p {
+    hyphens: auto;
+}
+
 body {
     color: #333;
     font-family: "Arial", sans-serif;
@@ -75,7 +79,7 @@ a :visited {
 }
 
 /* Header et Navigation */
-.header {
+header {
     backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.95);
     filter: sepia(10%);
@@ -167,17 +171,21 @@ a[data-section] {
 .container {
     margin: 0 auto;
     max-width: 1200px;
-    text-align: center;
 }
 
 .dark-box {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 10px;
     border: 2px solid rgba(107, 59, 33, 0.5);
-    margin: 2em;
-    max-width: 90%;
+    margin: 2em 0;
     overflow-wrap: break-word;
-    padding: 2em;
+    padding: 2em 4em;
+    /*
+    width: 100%;
+    display: block;
+    max-width: 90%;
+    display: none;
+    */
 }
 
 .section-title {
@@ -187,6 +195,7 @@ a[data-section] {
     opacity: 0;
     transform: translateY(50px);
     transition: all 0.8s ease;
+    text-align: center;
 }
 
 .section-title.animate {
@@ -222,67 +231,17 @@ a[data-section] {
     text-align: center;
 }
 
-.hero-title {
-    animation: fadeInUp 1s ease;
-    font-size: 4rem;
-    margin-bottom: 1rem;
-}
-
-.hero-subtitle {
-    animation: fadeInUp 1s ease 0.3s both;
-    color: color-mix(in srgb, currentColor 80%, white 20%);
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-}
-
-/* Ensure Markdown-generated headings/paragraphs inside #accueil inherit hero styles */
 #accueil h1 {
-    /* same as .hero-title */
     animation: fadeInUp 1s ease;
     font-size: 4rem;
     margin-bottom: 1rem;
 }
 
 #accueil p {
-    /* default hero-subtitle behavior for the first two paragraphs */
     animation: fadeInUp 1s ease 0.3s both;
     color: color-mix(in srgb, currentColor 80%, white 20%);
     font-size: 1.5rem;
     margin-bottom: 2rem;
-}
-
-/* Présentation content styles */
-#presentation .author {
-    text-align: center;
-    margin-top: 1rem;
-    font-style: italic;
-}
-
-#presentation img {
-    text-align: center;
-    margin-top: 2.5rem;
-}
-
-#presentation p:nth-of-type(3) img {
-    border-radius: 50%;
-    object-fit: cover;
-    width: 350px;
-    height: 350px;
-    display: block;
-    margin: 0 auto;
-    border: 0;
-}
-
-#presentation p:nth-of-type(4) img {
-    max-width: 350px;
-    margin-top: 2rem;
-}
-
-#presentation blockquote {
-    font-family: "Marck Script";
-    font-size: 200%;
-    font-weight: bold;
-    margin: 3em auto 2em;
 }
 
 .cta-button {
@@ -301,7 +260,9 @@ a[data-section] {
     color: rgba(107, 59, 33, 0.5);
 }
 
+/* Présentation content styles */
 #presentation {
+    text-align: center;
     align-items: center;
     background: transparent;
     color: var(--color-1);
@@ -311,25 +272,29 @@ a[data-section] {
     min-height: 100vh;
     padding: 2rem;
     position: relative;
-    text-align: center;
 }
 
-.image-with-texture {
-    display: inline-block;
-    margin: 2rem auto;
-    position: relative;
+#presentation img {
+    margin-top: 2rem;
+    width: 350px;
+    height: 350px;
 }
 
-.image-with-texture img {
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    display: block;
-    filter: drop-shadow(0 0 10px rgba(212, 165, 116, 0.3));
-    height: auto;
-    max-width: 100%;
-    position: relative;
-    z-index: 1;
+#presentation p:nth-of-type(3) img {
+    border-radius: 50%;
+    object-fit: cover;
 }
+
+#presentation blockquote {
+    font-family: "Marck Script";
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 3em auto 2em;
+}
+
+/*
+    Section therapies-massages
+ */
 
 #therapies-massages {
     background: linear-gradient(
@@ -337,6 +302,10 @@ a[data-section] {
         rgba(102, 59, 33, 1) 0%,
         rgba(242, 170, 88, 1) 100%
     );
+}
+
+#therapies-massages h3 {
+    text-align: center;
 }
 
 /* Services Grid */
@@ -408,6 +377,13 @@ a[data-section] {
 }
 .service-card blockquote {
     margin: 2em;
+}
+.service-card pre {
+    text-align: center;
+}
+.service-card button {
+    margin: 3em auto 1em;
+    display: block;
 }
 
 /* Contact Section */
@@ -514,10 +490,6 @@ button:hover {
         display: flex;
     }
 
-    .hero-title {
-        font-size: 2.5rem;
-    }
-
     .section-title {
         font-size: 2rem;
     }
@@ -546,9 +518,5 @@ button:hover {
         font-size: 80%;
         line-height: 1;
         margin: 0;
-    }
-
-    .hero-title {
-        font-size: 1.6rem;
     }
 }
