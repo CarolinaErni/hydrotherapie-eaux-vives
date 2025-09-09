@@ -7,3 +7,4 @@
 ## Site final
 
 -   https://hydrotherapie-eaux-vives.ch
+
