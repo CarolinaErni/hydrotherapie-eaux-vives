@@ -4,9 +4,22 @@ document.addEventListener("DOMContentLoaded", function () {
     const mobileMenuBtn = document.querySelector(".mobile-menu-btn");
     const navMenu = document.querySelector(".nav-menu");
 
-    mobileMenuBtn.addEventListener("click", function () {
-        navMenu.classList.toggle("active");
-    });
+    if (mobileMenuBtn && navMenu) {
+        // set appropriate ARIA attribute
+        mobileMenuBtn.setAttribute("role", "button");
+        mobileMenuBtn.setAttribute("aria-label", "Ouvrir le menu");
+        mobileMenuBtn.setAttribute("aria-expanded", "false");
+
+        mobileMenuBtn.addEventListener("click", function (e) {
+            const isActive = navMenu.classList.toggle("active");
+            mobileMenuBtn.classList.toggle("active", isActive);
+            // update accessible state
+            mobileMenuBtn.setAttribute(
+                "aria-expanded",
+                isActive ? "true" : "false"
+            );
+        });
+    }
 
     // Défilement fluide
     function smoothScroll(target) {
@@ -27,9 +40,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 const progress = Math.min(timeElapsed / scrollDuration, 1);
 
                 // Easing function for smoother animation
-                const easeProgress = progress < 0.5
-                    ? 2 * progress * progress
-                    : 1 - Math.pow(-2 * progress + 2, 2) / 2;
+                const easeProgress =
+                    progress < 0.5
+                        ? 2 * progress * progress
+                        : 1 - Math.pow(-2 * progress + 2, 2) / 2;
 
                 window.scrollTo(0, start + distance * easeProgress);
 
@@ -48,7 +62,14 @@ document.addEventListener("DOMContentLoaded", function () {
             e.preventDefault();
             const section = this.getAttribute("data-section");
             smoothScroll(section);
-            navMenu.classList.remove("active");
+            // Close mobile menu if open and restore button state
+            if (navMenu && navMenu.classList.contains("active")) {
+                navMenu.classList.remove("active");
+            }
+            if (mobileMenuBtn && mobileMenuBtn.classList.contains("active")) {
+                mobileMenuBtn.classList.remove("active");
+                mobileMenuBtn.setAttribute("aria-expanded", "false");
+            }
         });
     });
 
@@ -199,19 +220,21 @@ document.addEventListener("DOMContentLoaded", truncateServiceCards);
 // Fonction pour gérer l'affichage vidéo/image selon le paramètre URL "v"
 function handleVideoParameter() {
     const urlParams = new URLSearchParams(window.location.search);
-    const hasVideoParam = urlParams.has('v');
+    const hasVideoParam = urlParams.has("v");
 
-    const imageDiv = document.querySelector('.parallax-bg[style*="background-image"]');
-    const videoElement = document.querySelector('video.parallax-bg');
+    const imageDiv = document.querySelector(
+        '.parallax-bg[style*="background-image"]'
+    );
+    const videoElement = document.querySelector("video.parallax-bg");
 
     if (hasVideoParam) {
         // Afficher la vidéo, masquer l'image
-        if (imageDiv) imageDiv.style.display = 'none';
-        if (videoElement) videoElement.style.display = 'block';
+        if (imageDiv) imageDiv.style.display = "none";
+        if (videoElement) videoElement.style.display = "block";
     } else {
         // Afficher l'image, masquer la vidéo
-        if (imageDiv) imageDiv.style.display = 'block';
-        if (videoElement) videoElement.style.display = 'none';
+        if (imageDiv) imageDiv.style.display = "block";
+        if (videoElement) videoElement.style.display = "none";
     }
 }
 

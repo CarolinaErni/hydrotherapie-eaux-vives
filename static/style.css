@@ -112,6 +112,11 @@ header {
     }
 }
 
+/* Slightly larger menu item text for better legibility */
+.nav-menu .nav-link {
+    font-size: 1.2rem;
+}
+
 .nav-item {
     position: relative;
 }
@@ -487,8 +492,29 @@ button:hover {
         width: 100%;
     }
 
+    /* When the menu receives the active class, slide it into view */
+    .nav-menu.active {
+        left: 0;
+        z-index: 1100;
+    }
+
     .mobile-menu-btn {
         display: flex;
+    }
+
+    /* Animated hamburger -> X */
+    .mobile-menu-btn.active span:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+        width: 28px;
+    }
+
+    .mobile-menu-btn.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .mobile-menu-btn.active span:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+        width: 28px;
     }
 
     #accueil h1 {
