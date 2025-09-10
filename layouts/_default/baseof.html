@@ -5,9 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ .Site.Title }}</title>
-    <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
     <link rel="shortcut icon" href="./favicon.svg">
     <link rel="stylesheet" href="./style.css">
+    <link rel="canonical" href="{{ if .IsHome }}{{ .Site.BaseURL }}{{ else }}{{ .Permalink }}{{ end }}">
+    <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
+    <meta property="og:url" content="{{ if .IsHome }}{{ .Site.BaseURL }}{{ else }}{{ .Permalink }}{{ end }}">
+    <meta property="og:title" content="{{ .Site.Title }}">
+    <meta property="og:description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
+    <meta property="og:image" content='{{ "favicon.svg" | absURL }}'>
     <script type="application/ld+json">
 {
 "@context": "https://schema.org",
