@@ -1,10 +1,8 @@
-<header class="header">
+<header>
     <div class="nav-container">
         <a class="logo" href="#accueil" data-section="accueil">
-            <div class="logo-img">
-                <img src="./favicon.svg" alt="Logo cabinet Carolina Erni">
-            </div>
-            <div class="logo-text">
+            <img src="./favicon.svg" alt="Logo cabinet Carolina Erni">
+            <div>
                 <p>Carolina Erni</p>
                 <p>hydrotherapie-eaux‑vives.ch</p>
             </div>
