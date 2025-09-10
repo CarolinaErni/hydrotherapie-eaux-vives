@@ -5,7 +5,7 @@ slug: "sonotherapie-diapasons"
 
 ![Thérapie par le son des diapasons](./images/sonotherapie-diapasons.jpg)
 
-### Thérapie par le son des diapasons
+### Thérapie par le son des diapasons
 
 La thérapie par le son des diapasons est une approche vibratoire révolutionnaire qui utilise les fréquences sonores précises et harmoniques des diapasons pour rééquilibrer l’énergie vitale et restaurer l’harmonie naturelle de l’organisme. Cette technique ancestrale, remise au goût du jour par les recherches modernes en sonothérapie, reconnaît que notre corps fonctionne selon des fréquences spécifiques et que les déséquilibres peuvent être corrigés par l’application de vibrations thérapeutiques appropriées.
 

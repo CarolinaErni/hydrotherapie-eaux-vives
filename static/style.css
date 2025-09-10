@@ -267,6 +267,7 @@ a[data-section] {
     border-radius: 50px;
     border: 2px solid rgba(107, 59, 33, 0.5);
     display: inline-block;
+    font-size: 1.5rem;
     margin: 60px auto 0;
     padding: 1rem 2rem;
     transition: all 0.3s ease;
@@ -296,22 +297,17 @@ a[data-section] {
 }
 
 #presentation img {
-    margin-top: 2em;
-    max-width: 100%;
-    width: 350px;
-    height: 350px;
-}
-
-#presentation p:nth-of-type(3) img {
+    margin: 1rem 0;
+    width: 100%;
+    max-width: 350px;
     border-radius: 50%;
-    object-fit: cover;
 }
 
 #presentation blockquote {
     font-family: "Shalimar";
     font-size: clamp(2.2rem, 3vw, 4rem);
     font-weight: bold;
-    margin: 1.5em auto 2em;
+    margin: 1rem auto 2em;
 }
 
 /* Section therapies-massages */

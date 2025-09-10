@@ -5,7 +5,7 @@ slug: "massage-du-dos"
 
 ![Massage du dos Dorn et Breuss](./images/massage-dos.jpg)
 
-### Massage du dos Dorn et Breuss
+### Massage du dos Dorn et Breuss
 
 Le massage du dos selon les méthodes Dorn et Breuss est une approche thérapeutique unique qui combine deux techniques complémentaires développées dans les Alpes autrichiennes et allemandes. Cette synergie thérapeutique, fruit de l’expérience et de l’intuition de deux praticiens exceptionnels, offre une solution naturelle et efficace pour les troubles vertébraux et les tensions dorsales.
 

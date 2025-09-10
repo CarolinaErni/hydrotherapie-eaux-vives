@@ -7,6 +7,8 @@ J’ai grandi à Lucerne et très vite je me suis intéressée aux professions m
 Après une première formation en Shiatsu, suivie par l’apprentissage d’autres méthodes naturelles de soin, j’ai réalisé mon diplôme en hydrothérapie du côlon.
 Cette méthode permet de purifier la personne jusqu’à toucher son âme.
 
+<br>
+
 *Carolina Erni*
 
 ![Carolina Erni](./images/carolina-erni.webp)
