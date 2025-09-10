@@ -1,2 +1,1 @@
-_Made by_
-[N.](https://jeanmonod.net/)
+_Made by [N.](https://jeanmonod.net/)_
