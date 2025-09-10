@@ -1,1 +1,1 @@
-_[Made by](https://jeanmonod.net/)_
+_[❧](https://jeanmonod.net/)_
