@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="fr">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,10 +8,106 @@
     <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
     <link rel="shortcut icon" href="./favicon.svg">
     <link rel="stylesheet" href="./style.css">
-    <script type="application/ld+json; charset=utf-8" src="./hydrotherapie-eaux-vives.jsonld"></script>
+    <script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "HealthAndBeautyBusiness",
+"name": "Cabinet Carolina Erni",
+"description": "Cabinet d’hydrothérapie et de massages aux Eaux-Vives à Genève",
+"url": "https://hydrotherapie-eaux-vives.ch",
+"address": {
+"@type": "PostalAddress",
+"streetAddress": "Av. de Frontenex 34",
+"addressLocality": "Genève",
+"postalCode": "1207",
+"addressCountry": "CH"
+},
+"geo": {
+"@type": "GeoCoordinates",
+"latitude": "46.20093",
+"longitude": "6.16543"
+},
+"telephone": "+41763170816",
+"email": "hydrotherapie.eaux.vives@gmail.com",
+"openingHoursSpecification": {
+"@type": "OpeningHoursSpecification",
+"dayOfWeek": [
+"Monday",
+"Tuesday",
+"Wednesday",
+"Thursday",
+"Friday"
+],
+"opens": "08:00",
+"closes": "18:00"
+},
+"priceRange": "130-280 CHF",
+"image": "https://hydrotherapie-eaux-vives.ch/images/carolina-erni.webp",
+"makesOffer": [
+{
+"@type": "Service",
+"name": "Hydrothérapie du côlon",
+"description": "L’hydrothérapie du côlon est une approche thérapeutique ancestrale de nettoyage du gros intestin",
+"timeRequired": "PT1H45M",
+"price": "200",
+"priceCurrency": "CHF"
+},
+{
+"@type": "Service",
+"name": "Hydrothérapie du côlon à l’ozone",
+"description": "Approche thérapeutique innovante qui utilise les propriétés de l’ozone (O₃) pour stimuler les mécanismes naturels de guérison et de régénération de l’organisme. En complément à l’hydrothérapie du côlon uniquement.",
+"timeRequired": "PT1H45M",
+"price": "280",
+"priceCurrency": "CHF"
+},
+{
+"@type": "Service",
+"name": "Drainage lymphatique manuel du Dr Vodder",
+"description": "Technique de massage thérapeutique très raffinée et efficace pour stimuler le système lymphatique.",
+"timeRequired": "PT1H00M",
+"price": "140",
+"priceCurrency": "CHF"
+},
+{
+"@type": "Service",
+"name": "Réflexologie douce méthode Nick Durrer",
+"description": "Approche révolutionnaire de la réflexologie plantaire, développée par le thérapeute suisse Nick Durrer.",
+"timeRequired": "PT1H00M",
+"price": "130",
+"priceCurrency": "CHF"
+},
+{
+"@type": "Service",
+"name": "Massage du dos Dorn et Breuss",
+"description": "Approche thérapeutique qui combine deux techniques complémentaires pour les troubles vertébraux et les tensions dorsales.",
+"timeRequired": "PT1H00M",
+"price": "140",
+"priceCurrency": "CHF"
+},
+{
+"@type": "Service",
+"name": "Massage de détente",
+"description": "Massage thérapeutique pour une relaxation profonde",
+"timeRequired": "PT1H00M",
+"price": "140",
+"priceCurrency": "CHF"
+},
+{
+"@type": "Service",
+"name": "Thérapie par le son des diapasons",
+"description": "Approche vibratoire qui utilise les fréquences sonores des diapasons pour rééquilibrer l’énergie vitale.",
+"timeRequired": "PT1H10M",
+"price": "140",
+"priceCurrency": "CHF"
+}
+]
+}
+</script>
 </head>
+
 <body>
-{{ block "main" . }}{{ end }}
+    {{ block "main" . }}{{ end }}
     <script src="./scripts.js"></script>
 </body>
+
 </html>
