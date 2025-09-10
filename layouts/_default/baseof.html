@@ -12,7 +12,7 @@
     <meta property="og:url" content="{{ if .IsHome }}{{ .Site.BaseURL }}{{ else }}{{ .Permalink }}{{ end }}">
     <meta property="og:title" content="{{ .Site.Title }}">
     <meta property="og:description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
-    <meta property="og:image" content='{{ "favicon.svg" | absURL }}'>
+    <meta property="og:image" content="./favicon.svg">
     <script type="application/ld+json">
     {{ (readFile "static/hydrotherapie-eaux-vives.jsonld") | safeJS }}
     </script>
