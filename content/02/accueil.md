@@ -3,7 +3,7 @@ title: "Accueil"
 slug: "accueil"
 ---
 
-# Bienvenue au cabinet Carolina Erni
+# Bienvenue au cabinet<br>Carolina Erni
 
 _hydrotherapie-eaux‑vives.ch_
 
