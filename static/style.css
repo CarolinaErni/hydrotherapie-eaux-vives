@@ -315,15 +315,7 @@ a[data-section] {
 }
 
 /* Section therapies-massages */
-#therapies-massages {
-    background: linear-gradient(
-        135deg,
-        rgba(102, 59, 33, 1) 0%,
-        rgba(242, 170, 88, 1) 100%
-    );
-}
 
-/* Services Grid */
 .services-grid {
     display: grid;
     gap: 2rem;
@@ -394,6 +386,10 @@ a[data-section] {
     padding: 1rem;
     margin: 0 0 1em;
     border: 4px double var(--color-1);
+}
+
+#therapies-massages h2 {
+    mix-blend-mode: overlay;
 }
 
 #therapies-massages .service-card pre {
