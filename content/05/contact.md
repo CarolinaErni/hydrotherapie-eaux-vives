@@ -64,3 +64,10 @@ slug: "contact"
         </a>
     </p>
 </div>
+
+<div class="contact-item">
+    <img class="contact-icon" alt="Material icon" src="./icons/favorite_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
+    <h3>Liens</h3>
+    <p>•  <a href="https://massage-confignon.ch/">massage-confignon.ch</a></p>
+</div>
+
