@@ -1,2 +1,2 @@
-_Made by_
+_Made with love_
 [Nicolas Jeanmonod](https://jeanmonod.net/)
