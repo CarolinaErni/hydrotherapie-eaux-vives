@@ -5,17 +5,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Shalimar&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
 :root {
-    --txt-1-cl: #d4a574;
-    --txt-2-cl: #333;
-    --service-card-cl: #666;
-    --service-card-bkg-cl: white;
-    --header-cl: rgba(255, 255, 255, 0.9);
-    --dark-box-cl: rgba(0, 0, 0, 0.5);
     --dark-box-border-cl: color-mix(in srgb, var(--dark-box-cl) 80%, black 20%);
+    --dark-box-cl: rgba(0, 0, 0, 0.5);
     --footer-cl: #fef9e7;
-    --time-price-cl: black;
+    --header-cl: rgba(255, 255, 255, 0.9);
     --logo-cl: var(--txt-1-cl);
     --logo-url-cl: color-mix(in srgb, var(--txt-1-cl) 80%, black 40%);
+    --nav-menu-bkg-cl: white;
+    --service-card-bkg-cl: white;
+    --service-card-cl: #666;
+    --time-price-cl: black;
+    --txt-1-cl: #d4a574;
+    --txt-2-cl: #333;
 }
 
 * {
@@ -479,6 +480,7 @@ footer {
 @media (max-width: 850px) {
     .nav-menu {
         align-items: center;
+        background-color: var(--nav-menu-bkg-cl);
         flex-direction: column;
         height: calc(100vh - 80px);
         justify-content: start;

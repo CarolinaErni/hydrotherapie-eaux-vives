@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function smoothScroll(target) {
         const element = document.getElementById(target);
         if (element) {
-            const headerHeight = document.querySelector(".header").offsetHeight;
+            const headerHeight = document.querySelector("header").offsetHeight;
             const elementPosition = element.offsetTop - headerHeight;
 
             // Custom smooth scroll (1 second)
@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Header transparent/opaque au scroll
     function handleHeaderScroll() {
-        const header = document.querySelector(".header");
+        const header = document.querySelector("header");
         const scrolled = window.pageYOffset;
 
         if (scrolled > 100) {
@@ -203,7 +203,7 @@ function truncateServiceCards() {
                     toggleButton.textContent = "Afficher moins";
                     // After expanding, scroll the top of this service card to the top of the viewport
                     try {
-                        const header = document.querySelector(".header");
+                        const header = document.querySelector("header");
                         const headerHeight = header ? header.offsetHeight : 0;
                         const rect = card.getBoundingClientRect();
                         const scrollTo =
@@ -218,7 +218,7 @@ function truncateServiceCards() {
                     toggleButton.textContent = "Afficher plus";
                     // After collapsing, scroll back to the top of the current service card
                     try {
-                        const header = document.querySelector(".header");
+                        const header = document.querySelector("header");
                         const headerHeight = header ? header.offsetHeight : 0;
                         const rect = card.getBoundingClientRect();
                         const scrollTo =
