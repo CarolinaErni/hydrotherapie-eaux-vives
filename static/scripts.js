@@ -124,8 +124,10 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    // Animation initiale
-    animateOnScroll();
+    // Animation initiale (startup only): déclenche après 2s pour laisser la page se stabiliser
+    setTimeout(function () {
+        animateOnScroll();
+    }, 2000);
 
     // Délai pour les cartes de services
     const serviceCards = document.querySelectorAll(".service-card");
@@ -201,11 +203,12 @@ function truncateServiceCards() {
                     toggleButton.textContent = "Afficher moins";
                     // After expanding, scroll the top of this service card to the top of the viewport
                     try {
-                        const header = document.querySelector('.header');
+                        const header = document.querySelector(".header");
                         const headerHeight = header ? header.offsetHeight : 0;
                         const rect = card.getBoundingClientRect();
-                        const scrollTo = window.pageYOffset + rect.top - headerHeight;
-                        window.scrollTo({ top: scrollTo, behavior: 'smooth' });
+                        const scrollTo =
+                            window.pageYOffset + rect.top - headerHeight;
+                        window.scrollTo({ top: scrollTo, behavior: "smooth" });
                     } catch (e) {
                         // fallback: no-op
                     }
@@ -215,11 +218,12 @@ function truncateServiceCards() {
                     toggleButton.textContent = "Afficher plus";
                     // After collapsing, scroll back to the top of the current service card
                     try {
-                        const header = document.querySelector('.header');
+                        const header = document.querySelector(".header");
                         const headerHeight = header ? header.offsetHeight : 0;
                         const rect = card.getBoundingClientRect();
-                        const scrollTo = window.pageYOffset + rect.top - headerHeight;
-                        window.scrollTo({ top: scrollTo, behavior: 'smooth' });
+                        const scrollTo =
+                            window.pageYOffset + rect.top - headerHeight;
+                        window.scrollTo({ top: scrollTo, behavior: "smooth" });
                     } catch (e) {
                         // fallback: no-op
                     }
@@ -236,27 +240,3 @@ function truncateServiceCards() {
 
 // Appeler la fonction après le chargement du DOM
 document.addEventListener("DOMContentLoaded", truncateServiceCards);
-
-// // Fonction pour gérer l'affichage vidéo/image selon le paramètre URL "v"
-// function handleVideoParameter() {
-//     const urlParams = new URLSearchParams(window.location.search);
-//     const hasVideoParam = urlParams.has("v");
-
-//     const imageDiv = document.querySelector(
-//         '.parallax-bg[style*="background-image"]'
-//     );
-//     const videoElement = document.querySelector("video.parallax-bg");
-
-//     if (hasVideoParam) {
-//         // Afficher la vidéo, masquer l'image
-//         if (imageDiv) imageDiv.style.display = "none";
-//         if (videoElement) videoElement.style.display = "block";
-//     } else {
-//         // Afficher l'image, masquer la vidéo
-//         if (imageDiv) imageDiv.style.display = "block";
-//         if (videoElement) videoElement.style.display = "none";
-//     }
-// }
-
-// // Appeler la fonction au chargement de la page
-// document.addEventListener("DOMContentLoaded", handleVideoParameter);
