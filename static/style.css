@@ -192,7 +192,13 @@ a[data-section] {
     left: 0;
     position: absolute;
     width: 100%;
-    z-index: -2;
+    z-index: -1; /* sits above site video but behind content */
+    top: 0;
+}
+
+/* Ensure the site-wide background video stays behind section parallax layers */
+.site-bg-video {
+    z-index: -2 !important;
 }
 
 .container {
@@ -242,16 +248,15 @@ a[data-section] {
 /* Section Accueil */
 #accueil {
     align-items: center;
-    background-image: url("./images/fond-1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-image moved into a dedicated .parallax-bg div inside the template */
     color: var(--color-1);
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
     text-align: center;
+    position: relative;
+    overflow: hidden;
 }
 
 #accueil p {

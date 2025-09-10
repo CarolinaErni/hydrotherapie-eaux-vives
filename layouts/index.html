@@ -12,6 +12,8 @@
 
 <!-- Section Accueil -->
 <section id="accueil" class="section">
+    <!-- Parallax background for accueil (moved above site-wide video) -->
+    <div class="parallax-bg" style="background-image: url('./images/fond-1.jpg'); top:0;"></div>
     <div class="container dark-box">
         {{ with .Site.GetPage "02/accueil" }}
         {{ .Content | safeHTML }}
