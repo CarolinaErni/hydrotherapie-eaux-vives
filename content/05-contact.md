@@ -4,7 +4,7 @@ title: "Contact & Infos"
 
 <div class="contact-item">
     <img class="contact-icon" alt="Material icon" src="./icons/map_search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
-    <h3>Adresse du cabinet</h3>
+    <h3>Adresse</h3>
     <p><a href="https://maps.app.goo.gl/WcVAAxX3e6EZfyx26">Av. de Frontenex 34<br>1207 Genève</a></p>
 </div>
 
