@@ -61,6 +61,7 @@ p:not(#contact-infos p) {
     content: url("./icons/up-right-from-square-solid-full.svg");
     display: inline-block;
     margin-left: 8px;
+    position: absolute;
     width: 21px;
     transform: translateY(3px);
 }
