@@ -12,7 +12,7 @@
     <meta property="og:url" content="{{ if .IsHome }}{{ .Site.BaseURL }}{{ else }}{{ .Permalink }}{{ end }}">
     <meta property="og:title" content="{{ .Site.Title }}">
     <meta property="og:description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
-    <meta property="og:image" content="./favicon.svg">
+    <meta property="og:image" content="{{ .Site.BaseURL }}favicon.svg">
     <meta property="og:locale" content="fr_FR">
     <meta property="og:type" content="website">
     <script type="application/ld+json">
