@@ -49,11 +49,11 @@ h3 {
     text-align: center;
 }
 
-h3 a:not(:hover) {
+a:not(:hover) {
     text-decoration: none;
 }
 
-p {
+p:not(#contact-infos p) {
     hyphens: auto;
 }
 
@@ -144,7 +144,6 @@ header {
 
 a[data-section] {
     cursor: pointer;
-    text-decoration: none;
     transition: color 0.3s ease;
 }
 
@@ -489,7 +488,6 @@ footer {
 
 footer a {
     font-size: 4rem;
-    text-decoration: none;
 }
 
 footer a:hover {
