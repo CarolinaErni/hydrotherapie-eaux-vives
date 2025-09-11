@@ -5,8 +5,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Shalimar&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
 :root {
+    --contact-infos-bkg-cl: rgb(254, 249, 231);
     --dark-box-border-cl: color-mix(in srgb, var(--dark-box-cl) 80%, black 20%);
     --dark-box-cl: rgba(0, 0, 0, 0.5);
+    --footer-bkg-cl: var(--txt-1-cl);
     --footer-cl: #fef9e7;
     --header-cl: rgba(255, 255, 255, 0.9);
     --logo-cl: var(--txt-1-cl);
@@ -51,7 +53,7 @@ p {
     hyphens: auto;
 }
 
-[target="_blank"]:not(header a)::after {
+[target="_blank"]:not(header a):not(footer a)::after {
     content: url("./icons/up-right-from-square-solid-full.svg");
     display: inline-block;
     margin-left: 8px;
@@ -294,6 +296,7 @@ h2 {
 
 #presentation h2 {
     margin-top: 1em;
+    mix-blend-mode: hard-light;
 }
 
 #presentation img {
@@ -384,6 +387,7 @@ h2 {
     padding: 0;
     text-align: center;
 }
+
 .service-card button {
     margin: 3em auto 1em;
     display: block;
@@ -391,8 +395,36 @@ h2 {
 
 /* Contact Section */
 #contact-infos {
-    background: #fef9e7;
+    background: transparent;
+    position: relative;
+    z-index: 0;
     padding-bottom: 10em;
+}
+
+#contact-infos h2 {
+    color: var(--txt-2-cl);
+    mix-blend-mode: difference;
+}
+
+/*
+    Translucent site-level background for the contact section so the video shows through.
+    Diagonal alpha gradient: very transparent top-left -> opaque bottom-right.
+*/
+#contact-infos::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        color-mix(in srgb, var(--contact-infos-bkg-cl) 0%, transparent) 0%,
+        color-mix(in srgb, var(--contact-infos-bkg-cl) 56%, transparent) 10%,
+        color-mix(in srgb, var(--contact-infos-bkg-cl) 100%, transparent) 100%
+    );
+    mix-blend-mode: overlay;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    pointer-events: none;
+    z-index: -1;
 }
 
 .contact-items {
@@ -409,7 +441,7 @@ h2 {
 
 .contact-icon {
     align-items: center;
-    background: var(--txt-1-cl);
+    background-color: var(--txt-1-cl);
     border-radius: 50%;
     display: flex;
     font-size: 1.5rem;
@@ -442,7 +474,7 @@ button:hover {
 
 footer {
     align-items: center;
-    background-color: var(--txt-1-cl);
+    background-color: var(--footer-bkg-cl);
     color: var(--footer-cl);
     display: flex;
     height: 6em;

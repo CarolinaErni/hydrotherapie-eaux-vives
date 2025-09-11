@@ -155,9 +155,7 @@ function targetBlank() {
             isExternal = true;
         }
         // Si on est en protocole file://
-        if (a[i].textContent.trim() === "❧") {
-            isExternal = false;
-        } else if (location.protocol === "file:") {
+        if (location.protocol === "file:") {
             // Tous les liens http/https et protocol-relative sont externes
             isExternal = /^(https?:)?\/\//i.test(href);
         } else {
