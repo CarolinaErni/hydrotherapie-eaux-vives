@@ -56,7 +56,7 @@
                         {{- end -}}
                         {{- $therapies := sort $items "File.LogicalName" "asc" -}}
                         {{- range $therapies -}}
-                        <div class="service-card">
+                        <div class="service-card" id="{{ .File.BaseFileName }}">
                             {{ .Content | safeHTML }}
                         </div>
                         {{- end -}}

@@ -25,8 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function smoothScroll(target) {
         const element = document.getElementById(target);
         if (element) {
-            const headerHeight = document.querySelector("header").offsetHeight;
-            const elementPosition = element.offsetTop - headerHeight;
+            const elementPosition = element.offsetTop;
 
             // Custom smooth scroll (1 second)
             const scrollDuration = 1000; // reduced from 1500ms to 1000ms
@@ -203,11 +202,8 @@ function truncateServiceCards() {
                     toggleButton.textContent = "Afficher moins";
                     // After expanding, scroll the top of this service card to the top of the viewport
                     try {
-                        const header = document.querySelector("header");
-                        const headerHeight = header ? header.offsetHeight : 0;
                         const rect = card.getBoundingClientRect();
-                        const scrollTo =
-                            window.pageYOffset + rect.top - headerHeight;
+                        const scrollTo = window.pageYOffset + rect.top;
                         window.scrollTo({ top: scrollTo, behavior: "smooth" });
                     } catch (e) {
                         // fallback: no-op
@@ -218,11 +214,8 @@ function truncateServiceCards() {
                     toggleButton.textContent = "Afficher plus";
                     // After collapsing, scroll back to the top of the current service card
                     try {
-                        const header = document.querySelector("header");
-                        const headerHeight = header ? header.offsetHeight : 0;
                         const rect = card.getBoundingClientRect();
-                        const scrollTo =
-                            window.pageYOffset + rect.top - headerHeight;
+                        const scrollTo = window.pageYOffset + rect.top;
                         window.scrollTo({ top: scrollTo, behavior: "smooth" });
                     } catch (e) {
                         // fallback: no-op
@@ -234,9 +227,66 @@ function truncateServiceCards() {
             card.appendChild(truncatedTextContainer);
             card.appendChild(fullTextContainer);
             card.appendChild(toggleButton);
+            // Ensure headings inside the newly inserted containers have anchors
+            try {
+                if (typeof addAnchorsToServiceCards === "function")
+                    addAnchorsToServiceCards();
+            } catch (e) {
+                // safe no-op
+            }
         }
     });
 }
 
 // Appeler la fonction après le chargement du DOM
 document.addEventListener("DOMContentLoaded", truncateServiceCards);
+
+// Add anchor links to h3 titles inside .service-card, pointing to the parent card id
+function addAnchorsToServiceCards() {
+    const cards = document.querySelectorAll(".service-card");
+
+    cards.forEach((card) => {
+        const heading = card.querySelector("h3");
+        if (!heading) return;
+
+        const cardId = card.id;
+        if (!cardId) return;
+
+        // skip if already contains a correct link
+        const firstLink = heading.querySelector("a");
+        if (
+            firstLink &&
+            (firstLink.getAttribute("href") === "#" + cardId ||
+                firstLink.getAttribute("href") === cardId)
+        ) {
+            return;
+        }
+
+        const a = document.createElement("a");
+        a.setAttribute("href", "#" + cardId);
+        a.className = "heading-link";
+
+        while (heading.firstChild) {
+            a.appendChild(heading.firstChild);
+        }
+
+        // click: offset for fixed header
+        a.addEventListener("click", function (e) {
+            e.preventDefault();
+            const rect = card.getBoundingClientRect();
+            const scrollTo = window.pageYOffset + rect.top;
+            window.scrollTo({ top: scrollTo, behavior: "smooth" });
+            try {
+                history.pushState(null, "", "#" + cardId);
+            } catch (err) {
+                location.hash = cardId;
+            }
+        });
+
+        heading.appendChild(a);
+    });
+}
+
+// Run on DOMContentLoaded (and immediately if already loaded)
+document.addEventListener("DOMContentLoaded", addAnchorsToServiceCards);
+if (document.readyState !== "loading") addAnchorsToServiceCards();
