@@ -8,9 +8,17 @@ disableRSS          = true
 [params]
   description       = "Cabinet d’hydrothérapie et de massages aux Eaux-Vives à Genève"
   author            = "Carolina Erni"
+  prodURL            = "https://hydrotherapie-eaux-vives.ch"
 
 [outputs]
-  home = ["HTML"]
+  home = ["HTML", "Robots"]
+
+[outputFormats]
+  [outputFormats.Robots]
+    mediaType = "text/plain"
+    baseName = "robots"
+    isPlainText = true
+    notAlternative = true
 
 [permalinks]
   post = "/:slug/"
@@ -21,16 +29,3 @@ disableRSS          = true
       unsafe = true
     [markup.goldmark.parser]
       attribute = true
-
-# [markup]
-#     [markup.goldmark]
-#         [markup.goldmark.parser]
-#             attribute = true
-
-# [markup]
-#   [markup.goldmark]
-#     [markup.goldmark.parser]
-#       wrapStandAloneImageWithinParagraph = false
-#       [markup.goldmark.parser.attribute]
-#         block = true
-#         title = true

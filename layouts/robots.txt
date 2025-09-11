@@ -1,0 +1,15 @@
+{{- /*
+  Dynamic robots.txt template
+  - If the site is built with BaseURL = prodURL then allow all crawlers.
+  - Otherwise block everything (useful for preview / staging).
+*/ -}}
+
+{{- if eq .Site.BaseURL .Site.Params.prodURL -}}
+User-agent: *
+Allow: /
+Sitemap: {{ "sitemap.xml" | absURL }}
+Host: {{ .Site.BaseURL }}
+{{- else -}}
+User-agent: *
+Disallow: /
+{{- end -}}
