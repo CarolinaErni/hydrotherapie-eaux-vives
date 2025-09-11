@@ -7,13 +7,13 @@
     <title>{{ .Site.Title }}</title>
     <link rel="shortcut icon" href="./favicon.svg">
     <link rel="stylesheet" href="./style.css">
-    <link rel="canonical" href="{{ if .IsHome }}{{ .Site.BaseURL }}{{ else }}{{ .Permalink }}{{ end }}">
+    <link rel="canonical" href="{{ if .IsHome }}{{ .Site.Params.otherURL }}{{ else }}{{ .Permalink }}{{ end }}">
     <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
-    <meta property="og:url" content="{{ if .IsHome }}{{ .Site.BaseURL }}{{ else }}{{ .Permalink }}{{ end }}">
+    <meta property="og:url" content="{{ if .IsHome }}{{ .Site.Params.otherURL }}{{ else }}{{ .Permalink }}{{ end }}">
     <meta property="og:title" content="{{ .Site.Title }}">
     <meta property="og:description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
-    <meta property="og:image" content="{{ .Site.BaseURL }}favicon.svg">
-    <meta property="og:locale" content="fr_FR">
+    <meta property="og:image" content="{{ .Site.Params.otherURL }}favicon.svg">
+    <meta property="og:locale" content="{{ .Site.LanguageCode }}">
     <meta property="og:type" content="website">
     <script type="application/ld+json">
     {{ (readFile "static/hydrotherapie-eaux-vives.jsonld") | safeJS }}
