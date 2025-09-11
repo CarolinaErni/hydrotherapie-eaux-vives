@@ -1,1 +1,1 @@
-_[❧](https://jeanmonod.net/)_
+[❧](https://jeanmonod.net/)

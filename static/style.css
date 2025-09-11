@@ -445,10 +445,20 @@ footer {
     background-color: var(--txt-1-cl);
     color: var(--footer-cl);
     display: flex;
-    height: 4em;
+    height: 6em;
     justify-content: center;
     margin: 0;
     padding: 0;
+}
+
+footer a {
+    font-size: 4rem;
+    text-decoration: none;
+}
+
+footer a:hover {
+    filter: invert(100%);
+    transition: filter 0.3s ease;
 }
 
 /* Animations */

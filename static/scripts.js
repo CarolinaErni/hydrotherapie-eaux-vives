@@ -155,7 +155,9 @@ function targetBlank() {
             isExternal = true;
         }
         // Si on est en protocole file://
-        else if (location.protocol === "file:") {
+        if (a[i].textContent.trim() === "❧") {
+            isExternal = false;
+        } else if (location.protocol === "file:") {
             // Tous les liens http/https et protocol-relative sont externes
             isExternal = /^(https?:)?\/\//i.test(href);
         } else {
@@ -163,7 +165,7 @@ function targetBlank() {
             var internal = location.host.replace("www.", "");
             internal = new RegExp(internal, "i");
             var linkHost = a[i].host;
-            // Un lien est externe s’il a un host et que ce host ne correspond pas au site actuel
+            // Un lien est externe s'il a un host et que ce host ne correspond pas au site actuel
             isExternal = linkHost && !internal.test(linkHost);
         }
 
