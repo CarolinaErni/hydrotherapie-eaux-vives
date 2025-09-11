@@ -417,7 +417,7 @@ h2 {
     background: linear-gradient(
         to bottom,
         color-mix(in srgb, var(--contact-infos-bkg-cl) 0%, transparent) 0%,
-        color-mix(in srgb, var(--contact-infos-bkg-cl) 56%, transparent) 10%,
+        color-mix(in srgb, var(--contact-infos-bkg-cl) 50%, transparent) 20%,
         color-mix(in srgb, var(--contact-infos-bkg-cl) 100%, transparent) 100%
     );
     mix-blend-mode: overlay;
