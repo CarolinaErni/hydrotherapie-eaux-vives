@@ -4,14 +4,17 @@ languageCode        = "fr-FR"
 title               = "Cabinet Carolina Erni — Hydrothérapie & massages"
 canonifyurls        = true
 disableRSS          = true
+ignoreFiles         = ["static/_stock", ".DS_Store"]
 
 [params]
   description       = "Cabinet d’hydrothérapie et de massages aux Eaux-Vives à Genève"
   author            = "Carolina Erni"
-  prodURL            = "https://hydrotherapie-eaux-vives.ch"
+  prodURL           = "https://hydrotherapie-eaux-vives.ch"
 
 [outputs]
   home = ["HTML", "Robots"]
+  page = []
+  taxonomy = []
 
 [outputFormats]
   [outputFormats.Robots]
@@ -20,8 +23,8 @@ disableRSS          = true
     isPlainText = true
     notAlternative = true
 
-[permalinks]
-  post = "/:slug/"
+# [permalinks]
+#   post = "/:slug/"
 
 [markup]
   [markup.goldmark]

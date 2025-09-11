@@ -1,6 +1,5 @@
 ---
 title: "Réflexologie douce"
-slug: "reflexologie"
 ---
 
 ![Réflexologie douce méthode Nick Durrer](./images/reflexologie.jpg)

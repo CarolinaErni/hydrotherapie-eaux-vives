@@ -1,6 +1,5 @@
 ---
 title: "Massage du dos (Dorn & Breuss)"
-slug: "massage-du-dos"
 ---
 
 ![Massage du dos Dorn et Breuss](./images/massage-dos.jpg)

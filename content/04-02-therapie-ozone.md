@@ -1,6 +1,5 @@
 ---
 title: "Thérapie à l’ozone"
-slug: "therapie-ozone"
 ---
 
 ![Thérapie à l’ozone](./images/hydrotherapie-ozone.jpg)

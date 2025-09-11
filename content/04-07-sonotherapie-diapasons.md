@@ -1,6 +1,5 @@
 ---
 title: "Sonothérapie (Diapasons)"
-slug: "sonotherapie-diapasons"
 ---
 
 ![Thérapie par le son des diapasons](./images/sonotherapie-diapasons.jpg)

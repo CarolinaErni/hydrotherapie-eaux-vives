@@ -1,6 +1,5 @@
 ---
 title: "Contact & Infos"
-slug: "contact"
 ---
 
 <div class="contact-item">

@@ -1,6 +1,5 @@
 ---
 title: "Présentation"
-slug: "presentation"
 ---
 
 J’ai grandi à Lucerne et très vite je me suis intéressée aux professions médicales et paramédicales.

@@ -6,7 +6,7 @@
 </video>
 
 <!-- Section Header -->
-{{ with .Site.GetPage "01/header" }}
+{{ with .Site.GetPage "01-header" }}
 {{ .Content | safeHTML }}
 {{ end }}
 
@@ -15,7 +15,7 @@
     <!-- Parallax background for accueil (moved above site-wide video) -->
     <div class="parallax-bg" style="background-image: url('./images/fond-1.jpg'); top:0;"></div>
     <div class="container dark-box">
-        {{ with .Site.GetPage "02/accueil" }}
+        {{ with .Site.GetPage "02-accueil" }}
         {{ .Content | safeHTML }}
         {{ end }}
     </div>
@@ -30,7 +30,7 @@
 -->
 
     <div class="container dark-box">
-        {{ with .Site.GetPage "03/presentation" }}
+        {{ with .Site.GetPage "03-presentation" }}
         <h2 class="section-title">{{ .Title }}</h2>
         <div class="section-content">
             {{ .Content | safeHTML }}
@@ -47,9 +47,15 @@
             <div class="services-grid">
                 <div class="section-content">
                     <div class="services-grid">
-                        {{- /* Render each therapy page from the `therapies` section in filename order */ -}}
-                        {{- $therapies := where .Site.RegularPages "Section" "04" -}}
-                        {{- range sort $therapies "File.LogicalName" "asc" -}}
+                        {{- /* Render therapy pages whose filename begins with "04-" (files now identified by filename prefix) */ -}}
+                        {{- $items := slice -}}
+                        {{- range .Site.RegularPages -}}
+                            {{- if strings.HasPrefix .File.LogicalName "04-" -}}
+                                {{- $items = $items | append . -}}
+                            {{- end -}}
+                        {{- end -}}
+                        {{- $therapies := sort $items "File.LogicalName" "asc" -}}
+                        {{- range $therapies -}}
                         <div class="service-card">
                             {{ .Content | safeHTML }}
                         </div>
@@ -67,7 +73,7 @@
         <h2 class="section-title">Contact & Infos</h2>
         <div class="section-content">
             <div class="contact-items">
-                {{ with .Site.GetPage "05/contact" }}
+                {{ with .Site.GetPage "05-contact" }}
                 {{ .Content | safeHTML }}
                 {{ end }}
             </div>
@@ -77,7 +83,7 @@
 
 <!-- Section Footer -->
 <footer id="footer">
-    {{ with .Site.GetPage "06/footer" }}
+    {{ with .Site.GetPage "06-footer" }}
     {{ .Content | safeHTML }}
     {{ end }}
 </footer>

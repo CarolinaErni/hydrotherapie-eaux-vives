@@ -1,6 +1,5 @@
 ---
 title: "Accueil"
-slug: "accueil"
 ---
 
 # Bienvenue au cabinet<br>Carolina Erni

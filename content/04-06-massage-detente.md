@@ -1,6 +1,5 @@
 ---
 title: "Massage détente"
-slug: "massage-detente"
 ---
 
 ![Massage de détente](./images/massage-detente.jpg)

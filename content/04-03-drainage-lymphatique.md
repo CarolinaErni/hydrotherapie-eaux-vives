@@ -1,6 +1,5 @@
 ---
 title: "Drainage lymphatique manuel du Dr Vodder"
-slug: "drainage-lymphatique"
 ---
 
 ![Drainage lymphatique manuel du Dr Vodder](./images/drainage-lymphatique.jpg)

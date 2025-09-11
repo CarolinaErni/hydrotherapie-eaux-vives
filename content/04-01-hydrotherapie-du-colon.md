@@ -1,6 +1,5 @@
 ---
 title: "Hydrothérapie du côlon"
-slug: "hydrotherapie-du-colon"
 ---
 
 ![Hydrothérapie du côlon](./images/hydrotherapie-colon.jpg)
@@ -27,7 +26,7 @@ Cette approche holistique considère le corps dans sa globalité, reconnaissant 
 >
 > Vous pouvez consulter le protocole de préparation sur cette page :
 >
-> [Préparation à votre séance d'hydrothérapie du côlon](preparation-hydrotherapie.html)
+> [Préparation à votre séance d’hydrothérapie du côlon](preparation-hydrotherapie.html)
 
 ```
 1 h 45

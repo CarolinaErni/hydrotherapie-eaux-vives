@@ -1,3 +1,7 @@
+---
+title: "Header"
+---
+
 <header>
     <div class="nav-container">
         <a class="logo" href="#accueil" data-section="accueil">
