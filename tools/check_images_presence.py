@@ -2,13 +2,14 @@ import os
 import re
 from pathlib import Path
 
+
 def check_images_in_html():
     """
     Vérifie si tous les fichiers du répertoire 'images' sont référencés dans index.html
     """
     # Chemin vers le répertoire images et le fichier index.html
-    images_dir = Path("images")
-    html_file = Path("index.html")
+    images_dir = Path("../public/images")
+    html_file = Path("../public/index.html")
 
     # Vérifier que le répertoire images existe
     if not images_dir.exists():
@@ -36,20 +37,20 @@ def check_images_in_html():
 
     # Lire le contenu du fichier index.html
     try:
-        with open(html_file, 'r', encoding='utf-8') as f:
+        with open(html_file, "r", encoding="utf-8") as f:
             html_content = f.read()
     except UnicodeDecodeError:
         # Essayer avec un autre encodage si UTF-8 échoue
-        with open(html_file, 'r', encoding='latin-1') as f:
+        with open(html_file, "r", encoding="latin-1") as f:
             html_content = f.read()
 
     # Chercher les références aux fichiers images dans le HTML
     # Motifs de recherche pour différents types de références
     patterns = [
-        r'src\s*=\s*["\']([^"\']*)',          # src="..." ou src='...'
-        r'href\s*=\s*["\']([^"\']*)',         # href="..." ou href='...'
-        r'url\s*\(\s*["\']?([^"\')\s]*)',     # url(...) dans le CSS
-        r'background\s*:\s*url\s*\(["\']?([^"\')\s]*)'  # background: url(...)
+        r'src\s*=\s*["\']([^"\']*)',  # src="..." ou src='...'
+        r'href\s*=\s*["\']([^"\']*)',  # href="..." ou href='...'
+        r'url\s*\(\s*["\']?([^"\')\s]*)',  # url(...) dans le CSS
+        r'background\s*:\s*url\s*\(["\']?([^"\')\s]*)',  # background: url(...)
     ]
 
     referenced_files = set()
@@ -72,25 +73,31 @@ def check_images_in_html():
             unreferenced_files.append(img_file)
 
     # Afficher les résultats
-    print("\n" + "="*50)
+    print("\n" + "=" * 50)
     if unreferenced_files:
         print("⚠️  AVERTISSEMENT: Fichiers images non référencés dans index.html:")
         for file in sorted(unreferenced_files):
             print(f"   ❌ {file}")
     else:
-        print("✅ Tous les fichiers du répertoire 'images' sont référencés dans index.html")
+        print(
+            "✅ Tous les fichiers du répertoire 'images' sont référencés dans index.html"
+        )
 
     # Optionnel: vérifier les références mortes (fichiers référencés mais inexistants)
     missing_refs = []
     for ref in referenced_files:
         ref_path = images_dir / ref
-        if not ref_path.exists() and any(ref.lower().endswith(ext) for ext in ['.jpg', '.jpeg', '.png', '.gif', '.svg', '.webp', '.bmp']):
+        if not ref_path.exists() and any(
+            ref.lower().endswith(ext)
+            for ext in [".jpg", ".jpeg", ".png", ".gif", ".svg", ".webp", ".bmp"]
+        ):
             missing_refs.append(ref)
 
     if missing_refs:
         print("\n⚠️  AVERTISSEMENT: Références vers des fichiers inexistants:")
         for ref in sorted(missing_refs):
             print(f"   ❌ {ref}")
+
 
 if __name__ == "__main__":
     check_images_in_html()
