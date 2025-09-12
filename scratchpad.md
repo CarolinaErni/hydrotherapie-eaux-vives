@@ -59,3 +59,36 @@
 ## JSON-LD
 
 -   https://developers.google.com/search/docs/appearance/structured-data?hl=fr
+
+
+# 2025-09-12
+
+00-HTML
+https://www.gettyimages.ch/detail/video/silhouetted-wave-breaking-off-a-rocky-point-along-stock-filmmaterial/1655701480
+
+01-header.md
+-   LOGO OK
+02-accueil.md
+-   Image de fond OK
+03-presentation.md
+-   photographe jeudi prochain
+-   fleur de vie OK
+04-01-hydrotherapie-du-colon.md
+-   En cours
+04-02-therapie-ozone.md
+-   https://www.shutterstock.com/de/image-illustration/3d-collagen-skin-serum-vitamin-illustration-2547157387
+-   https://www.shutterstock.com/shutterstock/photos/2547157387/display_1500/stock-photo--d-collagen-skin-serum-and-vitamin-illustration-isolated-on-soft-color-background-concept-skin-2547157387.jpg
+04-03-drainage-lymphatique.md
+-   https://www.shutterstock.com/de/image-photo/asian-female-esthetician-massaging-feet-1360840988
+-   https://www.shutterstock.com/shutterstock/photos/1360840988/display_1500/stock-photo-asian-female-esthetician-massaging-feet-1360840988.jpg
+04-04-reflexologie.md
+-   En cours
+04-05-massage-dos.md
+-   En cours
+04-06-massage-detente.md
+-   https://www.shutterstock.com/de/image-photo/woman-relax-massage-bed-salon-glow-2463692927
+-   https://www.shutterstock.com/shutterstock/photos/2463692927/display_1500/stock-photo-woman-relax-and-massage-bed-in-salon-for-glow-wellness-and-cosmetics-with-candles-zen-beauty-2463692927.jpg
+04-07-sonotherapie-diapasons.md
+-   http://10.33.199.97:1313/images/sonotherapie-diapasons.jpg
+05-contact.md
+06-footer.md
