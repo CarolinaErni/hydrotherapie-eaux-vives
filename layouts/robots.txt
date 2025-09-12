@@ -7,8 +7,6 @@
 {{- if eq .Site.BaseURL .Site.Params.prodURL -}}
 User-agent: *
 Allow: /
-Sitemap: {{ "sitemap.xml" | absURL }}
-Host: {{ .Site.BaseURL }}
 {{- else -}}
 User-agent: *
 Disallow: /
