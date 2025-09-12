@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ .Site.Title }}</title>
     <link rel="icon" type="image/svg+xml" href='{{ "favicon.svg" | relURL }}'>
+    <link rel="icon" type="image/x-icon" href='{{ "favicon.ico" | relURL }}'>
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href='{{ "style.css" | relURL }}'>
     <link rel="canonical" href="{{ if .IsHome }}{{ .Site.Params.otherURL }}{{ else }}{{ .Permalink }}{{ end }}">
