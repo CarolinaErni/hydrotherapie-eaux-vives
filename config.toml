@@ -4,6 +4,7 @@ languageCode        = "fr-FR"
 title               = "Cabinet Carolina Erni — Hydrothérapie & massages"
 canonifyurls        = true
 disableRSS          = true
+disableKinds        = ["sitemap"]
 ignoreFiles         = ["static/_stock", ".DS_Store"]
 
 [params]
