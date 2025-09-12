@@ -5,19 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ .Site.Title }}</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="favicon-192x192.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon-180x180.png">
-    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/svg+xml" href='{{ "favicon.svg" | relURL }}'>
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href='{{ "style.css" | relURL }}'>
     <link rel="canonical" href="{{ if .IsHome }}{{ .Site.Params.otherURL }}{{ else }}{{ .Permalink }}{{ end }}">
     <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
     <meta property="og:url" content="{{ if .IsHome }}{{ .Site.Params.otherURL }}{{ else }}{{ .Permalink }}{{ end }}">
     <meta property="og:title" content="{{ .Site.Title }}">
     <meta property="og:description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
-    <meta property="og:image" content="{{ .Site.Params.otherURL }}images/hydrotherapie-eaux-vives.jpg">
+    <meta property="og:image" content='{{ "images/hydrotherapie-eaux-vives.jpg" | absURL }}'>
     <meta property="og:locale" content="{{ .Site.LanguageCode }}">
     <meta property="og:type" content="website">
     <script type="application/ld+json">
@@ -27,8 +23,8 @@
 
 <body>
     {{ block "main" . }}{{ end }}
-    <script src="./scripts.js"></script>
-    <script src="./helpers.js"></script>
+    <script src='{{ "scripts.js" | relURL }}'></script>
+    <script src='{{ "helpers.js" | relURL }}'></script>
 {{/*<!--
 -->*/}}
 </body>
