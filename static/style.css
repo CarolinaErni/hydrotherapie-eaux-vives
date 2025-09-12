@@ -370,6 +370,7 @@ h2 {
     font-size: 120%;
     margin: 0.5em;
     text-align: center;
+    text-indent: 0;
 }
 
 .service-card blockquote {
