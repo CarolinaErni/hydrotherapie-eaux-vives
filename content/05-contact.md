@@ -58,7 +58,7 @@ title: "Contact & Infos"
     </p>
     <p style="text-align:center; margin-top: 1em">
         <a href="https://colon.ch/?lang=fr">
-            <img src="./images/logo-colon-ch.png" alt="logo colon.ch" style="width:100px">
+            <img src="./images/logo-colon-ch.webp" alt="logo colon.ch" style="width:100px">
             <br>Membre de colon.ch
         </a>
     </p>

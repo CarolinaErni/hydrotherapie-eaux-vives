@@ -2,7 +2,7 @@
 title: "Drainage lymphatique manuel du Dr Vodder"
 ---
 
-![Drainage lymphatique manuel du Dr Vodder](./images/shutterstock_1360840988.jpg)
+![Drainage lymphatique manuel du Dr Vodder](./images/shutterstock_1360840988.webp)
 
 ### Drainage lymphatique manuel du Dr Vodder
 
