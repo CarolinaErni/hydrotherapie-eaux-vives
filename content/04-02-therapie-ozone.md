@@ -2,7 +2,7 @@
 title: "Thérapie à l’ozone"
 ---
 
-![Thérapie à l’ozone](./images/hydrotherapie-ozone.jpg)
+![Thérapie à l’ozone](./images/shutterstock_2547157387.jpg)
 
 ### Thérapie à l’ozone
 
