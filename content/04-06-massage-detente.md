@@ -2,7 +2,7 @@
 title: "Massage détente"
 ---
 
-![Massage de détente](./images/massage-detente.jpg)
+![Massage de détente](./images/shutterstock_2463692927.jpg)
 
 ### Massage de détente
 
