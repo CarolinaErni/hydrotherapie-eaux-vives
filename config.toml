@@ -1,5 +1,5 @@
 
-baseURL             = "https://carolinaerni.github.io/hydrotherapie-eaux-vives/"
+baseURL             = "https://hydrotherapie-eaux-vives.ch"
 languageCode        = "fr-FR"
 title               = "Cabinet Carolina Erni — Hydrothérapie & massages"
 canonifyurls        = true
@@ -7,7 +7,7 @@ disableRSS          = true
 ignoreFiles         = ["static/_stock", ".DS_Store"]
 
 [params]
-  otherURL          = "https://carolinaerni.github.io/hydrotherapie-eaux-vives/"
+  otherURL          = "https://hydrotherapie-eaux-vives.ch"
   description       = "Cabinet d’hydrothérapie et de massages aux Eaux-Vives à Genève"
   author            = "Carolina Erni"
   prodURL           = "https://hydrotherapie-eaux-vives.ch"
