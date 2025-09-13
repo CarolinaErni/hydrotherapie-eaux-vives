@@ -2,7 +2,7 @@
 title: "Réflexologie douce"
 ---
 
-![Réflexologie douce méthode Nick Durrer](./images/reflexologie.webp)
+![Réflexologie douce méthode Nick Durrer](./images/shutterstock_2497508875.webp)
 
 ### Réflexologie douce méthode Nick Durrer
 
