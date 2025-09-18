@@ -12,7 +12,7 @@
     --footer-cl: #fef9e7;
     --header-cl: rgba(255, 255, 255, 0.9);
     --logo-cl: var(--txt-1-cl);
-    --logo-url-cl: color-mix(in srgb, var(--txt-1-cl) 80%, black 40%);
+    --logo-url-cl: color-mix(in srgb, var(--txt-1-cl) 60%, black 40%);
     --nav-menu-bkg-cl: white;
     --service-card-bkg-cl: white;
     --service-card-cl: #666;
