@@ -68,7 +68,7 @@ p:not(#contact-infos p) {
 
 a,
 a:visited {
-    color: inherit;
+    color: var(--txt-1-cl);
 }
 
 .logo {
