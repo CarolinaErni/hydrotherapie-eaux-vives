@@ -308,7 +308,13 @@ h2 {
     margin: 1rem 0;
     width: 100%;
     max-width: 350px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
     border-radius: 50%;
+}
+
+#presentation img[alt="Carolina Erni"] {
+    animation: scale 0.7s ease;
 }
 
 #presentation blockquote {
