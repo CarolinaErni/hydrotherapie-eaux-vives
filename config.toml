@@ -1,7 +1,7 @@
 
 baseURL             = "https://hydrotherapie-eaux-vives.ch"
 languageCode        = "fr-FR"
-title               = "Cabinet Carolina Erni — Hydrothérapie & massages"
+title               = "Carolina Erni — Hydrothérapie & massages"
 canonifyurls        = true
 disableRSS          = true
 disableKinds        = ["sitemap"]
