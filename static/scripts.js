@@ -143,33 +143,33 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function targetBlank() {
-    var a = document.getElementsByTagName("a");
+    let a = document.getElementsByTagName("a");
+    const _siteHost = location.host.replace(/^www\./i, "");
+    const internalRegex = new RegExp(_siteHost, "i");
 
-    for (var i = 0; i < a.length; i++) {
-        var href = a[i].href;
-        var isExternal = false;
+    for (let i = 0; i < a.length; i++) {
+        let href = a[i].href;
+        let isExternal = false;
 
-        // Si le lien commence par mailto: il est forcément externe
         if (/^mailto:/i.test(href)) {
+            // Si le lien commence par mailto: il est forcément externe
             isExternal = true;
-        }
-        // Si on est en protocole file://
-        if (location.protocol === "file:") {
-            // Tous les liens http/https et protocol-relative sont externes
+        } else if (location.protocol === "file:") {
+            // Si on est en protocole file://
+            // tous les liens http/https et protocol-relative sont externes
             isExternal = /^(https?:)?\/\//i.test(href);
         } else {
             // Logique normale pour http/https
-            var internal = location.host.replace("www.", "");
-            internal = new RegExp(internal, "i");
-            var linkHost = a[i].host;
-            // Un lien est externe s'il a un host et que ce host ne correspond pas au site actuel
-            isExternal = linkHost && !internal.test(linkHost);
+            // Un lien est externe s’il a un host et que ce host ne correspond pas au site actuel
+            let linkHost = a[i].host;
+            isExternal = linkHost && !internalRegex.test(linkHost);
         }
 
         if (isExternal) {
             a[i].setAttribute("target", "_blank");
             a[i].setAttribute("rel", "noopener noreferrer");
         }
+        // console.log(`${String(isExternal).padEnd(5)} ${_siteHost} ${href}`);
     }
 }
 targetBlank();
