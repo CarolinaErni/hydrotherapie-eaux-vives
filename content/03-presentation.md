@@ -10,7 +10,7 @@ Cette méthode permet de purifier la personne jusqu’à toucher son âme.
 
 *Carolina Erni*
 
-![Carolina Erni](./images/_DSC7498-Modifier_copie.webp)
+![Carolina Erni](./images/_DSC7498-Modifier_copie_warm.webp)
 
 ![Fleur de vie](./images/fleur-de-vie.svg)
 

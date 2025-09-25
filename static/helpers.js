@@ -48,13 +48,12 @@ async function chargerMedias() {
 async function testPhotosPortrait() {
     let imageList = [];
     let currentIndex = 0;
-    const baseURL = "https://ernicarolina.ch/photographe_christian_bromley/edited/";
+    const baseURL =
+        "https://ernicarolina.ch/photographe_christian_bromley/edited/";
 
     try {
         // Fetch the image list
-        const response = await fetch(
-            `${baseURL}list.php`
-        )
+        const response = await fetch(`${baseURL}list.php`);
         const data = await response.json();
         imageList = data.map((filename) => baseURL + filename);
 
@@ -149,6 +148,42 @@ if (urlParams.has("i")) {
 } else if (urlParams.has("j")) {
     document.addEventListener("DOMContentLoaded", testPhotosPortrait);
 }
+
+/**
+ * cycleCarolinaPhoto()
+ * - Liste en dur des images de Carolina (séquentiel)
+ * - Stocke l'index courant dans localStorage pour la prochaine visite
+ * - Met à jour l'image `img[alt="Carolina Erni"]`
+ */
+function cycleCarolinaPhoto() {
+    const list = [
+        "./images/_DSC7498-Modifier_copie_warm.webp",
+        "./images/_DSC7504-Modifier_copie_warm.webp",
+    ];
+
+    const key = "carolina-photo-index";
+    let idx = 0;
+    try {
+        const stored = localStorage.getItem(key);
+        if (stored !== null) idx = (parseInt(stored, 10) + 1) % list.length;
+    } catch (e) {
+        idx = 0;
+    }
+
+    const img = document.querySelector('img[alt="Carolina Erni"]');
+    if (!img) return;
+
+    img.src = list[idx];
+
+    try {
+        localStorage.setItem(key, String(idx));
+    } catch (e) {
+        // ignore storage errors
+    }
+}
+
+// Appel automatique : cycle de la photo au chargement
+document.addEventListener("DOMContentLoaded", cycleCarolinaPhoto);
 
 // // Fonction pour tester rapidement les mix-blend-mode
 // // Click-to-cycle mix-blend-mode tester for all <h2> elements

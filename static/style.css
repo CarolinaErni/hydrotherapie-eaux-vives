@@ -315,6 +315,7 @@ h2 {
 
 #presentation img[alt="Carolina Erni"] {
     animation: scale 0.7s ease;
+    max-width: 500px;
 }
 
 #presentation blockquote {
