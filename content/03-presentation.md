@@ -8,9 +8,11 @@ Cette méthode permet de purifier la personne jusqu’à toucher son âme.
 
 <br>
 
-*Carolina Erni*
+_Carolina Erni_
 
-![Carolina Erni](./images/_DSC7498-Modifier_copie_warm.webp)
+<div style="width:420px; height:420px; max-width:100%; margin:3.5rem auto; position:relative; border-radius:50%; overflow:hidden; background-image:linear-gradient(rgba(255,255,255,0.15),rgba(255,255,255,0.15)), url('./images/mandala-001.webp'); background-size:cover; background-position: calc(50% + 7px) calc(50% - 10px);">
+	<img src="./images/_DSC7498-Modifier_copie_warm.webp" alt="Carolina Erni" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; border-radius:50%; display:block;">
+</div>
 
 ![Fleur de vie](./images/fleur-de-vie.svg)
 
