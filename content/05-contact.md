@@ -17,7 +17,7 @@ title: "Contact & Infos"
 <div class="contact-item">
     <img class="contact-icon" alt="Material icon" src="./icons/mail_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
     <h3>Email</h3>
-    <p><a href="mailto:hydrotherapie.eaux.vives@gmail.com">hydrotherapie.eaux.vives&ZeroWidthSpace;@gmail.com</a></p>
+    <p><a href="mailto:hydrotherapie.eaux.vives@gmail.com">hydrotherapie.eaux.vives@gmail.com</a></p>
 </div>
 
 <div class="contact-item">
