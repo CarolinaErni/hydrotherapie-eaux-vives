@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+from pathlib import Path
 
 
 def apply_warm_skin_filter(
@@ -211,28 +212,59 @@ def apply_warm_skin_filter(
 
 
 # Exemple d'utilisation (valeurs codées en dur)
-if __name__ == "__main__":
+def _parse_list(csv_str):
+    """Parse a comma-separated list of floats (e.g. "1.0,1.3,1.6")."""
+    if not csv_str:
+        return []
+    parts = [p.strip() for p in csv_str.split(",") if p.strip()]
+    vals = []
+    for p in parts:
+        try:
+            vals.append(float(p))
+        except ValueError:
+            pass
+    return vals
 
+
+def _ensure_parent(path: str):
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
+
+
+if __name__ == "__main__":
+    # Paths codés en dur — modifie ces listes selon tes besoins
     INPUTS = [
         "../stock/images/_DSC7498-Modifier_copie.webp",
         "../stock/images/_DSC7504-Modifier_copie.webp",
     ]
-    for INPUT in INPUTS:
-        OUTPUT = INPUT.replace(".webp", "_warm.webp")
-        # Image de référence : None signifie pas de transfert colorimétrique basé sur référence
-        REFERENCE = None
-        # Paramètres de traitement
-        STRENGTH = 1.0
-        WARMTH = 1.0
 
-        print(f"[i] INPUT = {INPUT}")
-        print(f"[i] OUTPUT = {OUTPUT}")
-        print(f"[i] REF = {REFERENCE}")
+    # Valeurs de test pour générer des variantes rapidement
+    warmth_values = [2.2, 2.5, 3.0]
+    strength_values = [0.6, 0.8, 1.0]
 
-        apply_warm_skin_filter(
-            INPUT,
-            OUTPUT,
-            reference_image_path=REFERENCE,
-            strength=STRENGTH,
-            warmth=WARMTH,
-        )
+    # Répertoire de sortie global (None => sauvegarde à côté du fichier source)
+    OUT_DIR = None  # ex: "static/variants"
+
+    # Image de référence (None pour désactiver le transfert colorimétrique)
+    REFERENCE = None
+
+    for input_path in INPUTS:
+        for w in warmth_values:
+            for s in strength_values:
+                p = Path(input_path)
+                suffix = f"_warm{w:.2f}_s{s:.2f}"
+                if OUT_DIR:
+                    out_base = Path(OUT_DIR) / p.name
+                else:
+                    out_base = p
+
+                out_name = out_base.with_name(out_base.stem + suffix + out_base.suffix)
+                _ensure_parent(str(out_name))
+
+                print(f"[i] INPUT = {input_path} | WARMTH={w} | STRENGTH={s} -> {out_name}")
+                apply_warm_skin_filter(
+                    input_path,
+                    str(out_name),
+                    reference_image_path=REFERENCE,
+                    strength=s,
+                    warmth=w,
+                )
