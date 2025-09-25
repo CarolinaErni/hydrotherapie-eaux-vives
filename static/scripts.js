@@ -169,7 +169,7 @@ function targetBlank() {
             _a[i].setAttribute("target", "_blank");
             _a[i].setAttribute("rel", "noopener");
         }
-        console.log(`${String(isExternal).padEnd(5)} ${_siteHost} ${href}`);
+        // console.log(`${String(isExternal).padEnd(5)} ${_siteHost} ${href}`);
     }
 }
 targetBlank();
