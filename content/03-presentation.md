@@ -10,11 +10,11 @@ Cette méthode permet de purifier la personne jusqu’à toucher son âme.
 
 _Carolina Erni_
 
-<div style="width:420px; height:420px; max-width:100%; margin:3.5rem auto; position:relative; border-radius:50%; overflow:hidden; background-image:linear-gradient(rgba(255,255,255,0.15),rgba(255,255,255,0.15)), url('./images/mandala-001.webp'); background-size:cover; background-position: calc(50% + 7px) calc(50% - 10px);">
-	<img src="./images/_DSC7498-Modifier_copie_warm.webp" alt="Carolina Erni" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; border-radius:50%; display:block;">
+<div style="width:420px; height:420px; max-width:100%; margin:3.5rem auto; position:relative; border-radius:50%; overflow:hidden; background-image:linear-gradient(rgba(255,255,255,0.15),rgba(255,255,255,0.15)), url('./images/3-0-mandala-001.webp'); background-size:cover; background-position: calc(50% + 7px) calc(50% - 10px);">
+	<img src="./images/3-1-carolina-erni-7498-warm.webp" alt="Carolina Erni" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; border-radius:50%; display:block;">
 </div>
 
-![Fleur de vie](./images/fleur-de-vie.svg)
+![Fleur de vie](./images/3-2-fleur-de-vie.svg)
 
 > « Ton corps est ton temple, conserve-le propre et pur, afin que l’âme puisse y vivre. »
 >

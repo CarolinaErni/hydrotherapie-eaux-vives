@@ -2,7 +2,7 @@
 title: "Massage du dos (Dorn & Breuss)"
 ---
 
-![Massage du dos Dorn et Breuss](./images/shutterstock_2349929413.webp)
+![Massage du dos Dorn et Breuss](./images/4-5-massage-dos-shutterstock_2349929413.webp)
 
 ### Massage du dos Dorn et Breuss
 

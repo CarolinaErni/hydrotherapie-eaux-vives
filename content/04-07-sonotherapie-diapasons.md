@@ -2,7 +2,7 @@
 title: "Sonothérapie (Diapasons)"
 ---
 
-![Thérapie par le son des diapasons](./images/sonotherapie-diapasons.webp)
+![Thérapie par le son des diapasons](./images/4-7-therapie-diapasons-sonotherapie-diapasons.webp)
 
 ### Thérapie par le son des diapasons
 

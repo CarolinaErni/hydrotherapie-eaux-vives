@@ -157,8 +157,8 @@ if (urlParams.has("i")) {
  */
 function cycleCarolinaPhoto() {
     const list = [
-        "./images/_DSC7498-Modifier_copie_warm.webp",
-        "./images/_DSC7504-Modifier_copie_warm.webp",
+        "./images/3-1-carolina-erni-7498-warm.webp",
+        "./images/3-1-carolina-erni-7504-warm.webp",
     ];
 
     const key = "carolina-photo-index";

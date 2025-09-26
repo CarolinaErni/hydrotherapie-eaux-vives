@@ -2,7 +2,7 @@
 title: "Hydrothérapie du côlon"
 ---
 
-![Hydrothérapie du côlon](./images/hydrotherapie-colon.webp)
+![Hydrothérapie du côlon](./images/4-1-hydrotherapie-du-colon.webp)
 
 ### Hydrothérapie du côlon
 
