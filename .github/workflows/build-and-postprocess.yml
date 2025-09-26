@@ -1,0 +1,53 @@
+name: Build site and post-process images
+
+on:
+  push:
+    branches: [ gh-pages, main ]
+  pull_request:
+    branches: [ gh-pages, main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v4
+        with:
+          hugo-version: '0.111.0'
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies (if requirements.txt present)
+        run: |
+          if [ -f requirements.txt ]; then
+            python -m pip install --upgrade pip
+            python -m pip install -r requirements.txt
+          else
+            echo "No requirements.txt found, skipping pip install"
+          fi
+
+      - name: Build Hugo site
+        run: hugo --minify
+
+      - name: Run Python post-processing (pretty_print)
+        # Run pretty_print only if Hugo produced public/index.html
+        run: |
+          if [ -f public/index.html ]; then
+            echo "Running pretty_print post-processing"
+            python3 tools/pretty_print.py public/index.html
+          else
+            echo "public/index.html not found; skipping pretty_print"
+          fi
+
+      - name: Archive public (for debugging)
+        if: ${{ github.event_name == 'pull_request' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: public-site
+          path: public/
