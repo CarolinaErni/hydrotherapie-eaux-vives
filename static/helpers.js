@@ -55,7 +55,7 @@ async function testPhotosPortrait() {
         // Fetch the image list
         const response = await fetch(`${baseURL}list.php`);
         const data = await response.json();
-        imageList = data.map((filename) => baseURL + filename);
+        imageList = data.map((filename) => "" + filename);
 
         console.log("testPhotosPortrait: loaded", imageList.length, "images");
 
