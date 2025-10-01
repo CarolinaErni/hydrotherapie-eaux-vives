@@ -22,10 +22,10 @@ _Carolina Erni_
 -   **Autogenes Training (training autogène)**, Bodyfeet Aarau, 2019
 -   **Massage Cupping (ventouses actives)**, Jardin de Vie, France, 2018
 -   **Chi Nei Tsang**, François Gisel, 2012
+-   **Formation continue hydrocôlon**, Werner Eidam & Dr Olaf Kuhnke, 2012
 -   **Prana Healing Master Choa Kok Sui**, Sefan Weiss, 2007–2008
 -   **Massage du dos Dorn & Breuss**, Pascal Cavin & Helmut Koch, 2008
--   **Thérapie hydrocôlon Axiom**, 2005<br>
-    **Formation continue**, Werner Eidam & Dr Olaf Kuhnke, 2012
+-   **Thérapie hydrocôlon Axiom**, 2005
 -   **Réflexologie**, Nick Durrer, 2001-2003
 -   **Fleurs de Bach**, Ingrid Schwarz, 1998
 -   **Drainage lymphatique Vodder**, École Dickerhof, 1992
