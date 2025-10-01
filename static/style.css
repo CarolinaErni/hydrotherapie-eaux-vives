@@ -19,6 +19,7 @@
     --time-price-cl: black;
     --txt-1-cl: #d4a574;
     --txt-2-cl: #333;
+    --header-h: 88px;
 }
 
 * {
@@ -29,12 +30,34 @@
 
 html {
     font-size: 100%;
+    scroll-padding-top: var(--header-h);
 }
 
 body {
     color: var(--txt-2-cl);
     font-family: "Source Sans 3", monospace;
     font-weight: 400;
+}
+
+h1[id],
+h2[id],
+h3[id],
+h4[id],
+h5[id],
+h6[id],
+section[id],
+article[id],
+div[id] {
+    scroll-margin-top: var(--header-h);
+}
+
+[id]:target::before {
+    content: "";
+    display: block;
+    height: var(--header-h);
+    margin-top: calc(-1 * var(--header-h));
+    visibility: hidden;
+    pointer-events: none;
 }
 
 h1 {
@@ -103,6 +126,7 @@ a:visited {
 
 /* Header et Navigation */
 header {
+    height: var(--header-h);
     backdrop-filter: blur(10px);
     background-color: var(--header-cl);
     filter: sepia(10%);
