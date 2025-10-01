@@ -3,7 +3,7 @@ title: "Présentation"
 ---
 
 J’ai grandi à Lucerne et très vite je me suis intéressée aux professions médicales et paramédicales.
-Après une première Shiatsu, suivie par l’apprentissage d’autres méthodes naturelles de soin, j’ai réalisé mon diplôme en hydrothérapie du côlon.
+Après une première formation en Shiatsu, suivie par l’apprentissage d’autres méthodes naturelles de soin, j’ai réalisé mon diplôme en hydrothérapie du côlon.
 Cette méthode permet de purifier la personne jusqu’à toucher son âme.
 
 <br>
@@ -26,7 +26,7 @@ _Carolina Erni_
 -   **Prana Healing Master Choa Kok Sui**, Sefan Weiss, 2007–2008
 -   **Massage du dos Dorn & Breuss**, Pascal Cavin & Helmut Koch, 2008
 -   **Thérapie hydrocôlon Axiom**, 2005
--   **Réflexologie**, Nick Durrer, 2001-2003
+-   **Réflexologie**, Nick Durrer, 2001–2003
 -   **Fleurs de Bach**, Ingrid Schwarz, 1998
 -   **Drainage lymphatique Vodder**, École Dickerhof, 1992
 -   **Shiatsu**, Ulrike Zalokar, 1998
