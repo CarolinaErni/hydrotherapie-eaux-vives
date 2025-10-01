@@ -2,11 +2,11 @@
 title: "Massage du dos (Dorn & Breuss)"
 ---
 
-![Massage du dos Dorn et Breuss](./images/4-5-massage-dos-shutterstock_2349929413.webp)
+![Massage du dos Dorn & Breuss](./images/4-5-massage-dos-shutterstock_2349929413.webp)
 
-### Massage du dos Dorn et Breuss
+### Massage du dos Dorn & Breuss
 
-Le massage du dos selon les méthodes Dorn et Breuss est une approche thérapeutique unique qui combine deux techniques complémentaires développées dans les Alpes autrichiennes et allemandes. Cette synergie thérapeutique, fruit de l’expérience et de l’intuition de deux praticiens exceptionnels, offre une solution naturelle et efficace pour les troubles vertébraux et les tensions dorsales.
+Le massage du dos selon les méthodes Dorn & Breuss est une approche thérapeutique unique qui combine deux techniques complémentaires développées dans les Alpes autrichiennes et allemandes. Cette synergie thérapeutique, fruit de l’expérience et de l’intuition de deux praticiens exceptionnels, offre une solution naturelle et efficace pour les troubles vertébraux et les tensions dorsales.
 
 La méthode Dorn, développée par Dieter Dorn, charpentier et guérisseur allemand, constitue une technique manuelle douce et respectueuse pour corriger les déplacements vertébraux et rétablir l’alignement naturel de la colonne vertébrale. Cette approche révolutionnaire se distingue par sa simplicité apparente et son efficacité remarquable, basée sur une compréhension profonde de la biomécanique vertébrale et des connexions subtiles entre la colonne et les organes internes.
 
@@ -24,7 +24,7 @@ L’huile de millepertuis, obtenue par macération des fleurs fraîches dans une
 
 Le massage Breuss se caractérise par des mouvements lents, profonds, et extrêmement relaxants qui suivent méticuleusement les contours de la colonne vertébrale. Cette technique spécifique permet de détendre les tensions musculaires profondes, d’améliorer la circulation sanguine locale, et de favoriser la nutrition des disques intervertébraux. L’effet relaxant est si profond que de nombreuses personnes s’endorment durant le traitement, permettant au corps d’exprimer pleinement ses capacités d’autorégulation.
 
-La combinaison des méthodes Dorn et Breuss crée une synergie thérapeutique exceptionnelle. La technique Dorn rétablit l’alignement vertébral et libère les compressions nerveuses, tandis que le massage Breuss détend les tensions musculaires et favorise la régénération tissulaire. Cette approche complète permet de traiter la cause profonde des troubles vertébraux tout en apportant un soulagement immédiat et durable.
+La combinaison des méthodes Dorn & Breuss crée une synergie thérapeutique exceptionnelle. La technique Dorn rétablit l’alignement vertébral et libère les compressions nerveuses, tandis que le massage Breuss détend les tensions musculaires et favorise la régénération tissulaire. Cette approche complète permet de traiter la cause profonde des troubles vertébraux tout en apportant un soulagement immédiat et durable.
 
 Les propriétés anti-dépressives naturelles de l’huile de millepertuis contribuent également à l’effet thérapeutique global, aidant à lever les états de morosité et de découragement souvent associés aux douleurs chroniques. Cette action sur l’humeur crée un cercle vertueux où l’amélioration physique s’accompagne d’un mieux-être psychologique, et vice versa.
 
