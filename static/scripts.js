@@ -213,13 +213,23 @@ function truncateServiceCards() {
                     truncatedTextContainer.style.display = "inline";
                     toggleButton.textContent = "Afficher plus";
                     // After collapsing, scroll back to the top of the current service card
-                    try {
-                        const rect = card.getBoundingClientRect();
-                        const scrollTo = window.pageYOffset + rect.top;
-                        window.scrollTo({ top: scrollTo, behavior: "smooth" });
-                    } catch (e) {
-                        // fallback: no-op
-                    }
+                        try {
+                            const rect = card.getBoundingClientRect();
+                            // Get header height from CSS variable (fallback to 88)
+                            let headerH = 88;
+                            const root = document.documentElement;
+                            if (root) {
+                                const cssH = getComputedStyle(root).getPropertyValue('--header-h');
+                                if (cssH) {
+                                    const parsed = parseInt(cssH);
+                                    if (!isNaN(parsed)) headerH = parsed;
+                                }
+                            }
+                            const scrollTo = window.pageYOffset + rect.top - headerH;
+                            window.scrollTo({ top: scrollTo, behavior: "smooth" });
+                        } catch (e) {
+                            // fallback: no-op
+                        }
                 }
             });
 
