@@ -1,3 +1,9 @@
+###
+# Usage:
+# zsh hugo.zsh        # for http
+# zsh hugo.zsh https  # for https
+##
+
 rm -rf public
 
 source $HOME/.zshrc
@@ -6,8 +12,7 @@ ip >/dev/null 2>&1
 MINIFY=false
 [[ "$MINIFY" != "true" ]] && unset MINIFY
 
-USE_HTTPS=true
-[[ "$USE_HTTPS" != "true" ]] && unset USE_HTTPS
+USE_HTTPS=$([[ "$1" == "https" ]] && echo true || unset USE_HTTPS)
 PROTOCOL=http${USE_HTTPS:+s}
 
 PORT="1313"
