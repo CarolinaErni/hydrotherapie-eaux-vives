@@ -34,3 +34,6 @@ ignoreFiles         = ["static/_stock", ".DS_Store"]
       unsafe = true
     [markup.goldmark.parser]
       attribute = true
+
+[minify]
+  minifyOutput = true
