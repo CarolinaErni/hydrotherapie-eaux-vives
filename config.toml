@@ -36,4 +36,4 @@ ignoreFiles         = ["static/_stock", ".DS_Store"]
       attribute = true
 
 [minify]
-  minifyOutput = true
+  minifyOutput = false
