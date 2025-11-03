@@ -2,8 +2,16 @@
     "@context": "https://schema.org",
     "@type": "HealthAndBeautyBusiness",
     "name": "Cabinet Carolina Erni",
-    "description": "Cabinet d’hydrothérapie et de massages aux Eaux-Vives à Genève",
+    "alternateName": "Hydrotherapie Eaux Vives",
     "url": "https://hydrotherapie-eaux-vives.ch",
+    "description": "Cabinet d'hydrothérapie et de massages aux Eaux-Vives à Genève — Carolina Erni masseuse et thérapeute diplômée, agréée par l'ASCA et l'Association Suisse des Thérapeutes en Hydrothérapie du Côlon (colon.ch).",
+    "logo": "https://hydrotherapie-eaux-vives.ch/images/1-1-logo.svg",
+    "image": [
+        "https://hydrotherapie-eaux-vives.ch/images/2-1-hydrotherapie-eaux-vives-accueil-og.webp",
+        "https://hydrotherapie-eaux-vives.ch/images/3-1-carolina-erni-7504-warm.webp"
+    ],
+    "telephone": "+41763170816",
+    "email": "hydrotherapie.eaux.vives@gmail.com",
     "address": {
         "@type": "PostalAddress",
         "streetAddress": "Av. de Frontenex 34",
@@ -11,13 +19,13 @@
         "postalCode": "1207",
         "addressCountry": "CH"
     },
+    "areaServed": "Genève, Suisse",
+    "priceRange": "130-280 CHF",
     "geo": {
         "@type": "GeoCoordinates",
         "latitude": "46.20093",
         "longitude": "6.16543"
     },
-    "telephone": "+41763170816",
-    "email": "hydrotherapie.eaux.vives@gmail.com",
     "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": [
@@ -30,8 +38,12 @@
         "opens": "08:00",
         "closes": "18:00"
     },
-    "priceRange": "130-280 CHF",
-    "image": "https://hydrotherapie-eaux-vives.ch/images/carolina-erni.webp",
+    "founder": {
+        "@type": "Person",
+        "name": "Carolina Erni",
+        "jobTitle": "masseuse et thérapeute diplômée",
+        "url": "https://hydrotherapie-eaux-vives.ch#presentation"
+    },
     "makesOffer": [
         {
             "@type": "Offer",
