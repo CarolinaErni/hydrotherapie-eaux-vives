@@ -17,9 +17,7 @@
     <meta property="og:image" content='{{ "images/2-1-hydrotherapie-eaux-vives-accueil-og.webp" | absURL }}'>
     <meta property="og:locale" content="{{ .Site.LanguageCode }}">
     <meta property="og:type" content="website">
-    <script type="application/ld+json">
-    {{ (readFile "static/hydrotherapie-eaux-vives.jsonld") | safeJS }}
-    </script>
+    <link rel="alternate" type="application/ld+json" href='{{ "hydrotherapie-eaux-vives.jsonld" | relURL }}'>
 </head>
 
 <body>
