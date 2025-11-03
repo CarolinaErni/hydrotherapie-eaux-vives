@@ -34,60 +34,109 @@
     "image": "https://hydrotherapie-eaux-vives.ch/images/carolina-erni.webp",
     "makesOffer": [
         {
-            "@type": "Service",
-            "name": "Hydrothérapie du côlon",
-            "description": "L’hydrothérapie du côlon est une approche thérapeutique ancestrale de nettoyage du gros intestin",
-            "timeRequired": "PT1H45M",
+            "@type": "Offer",
             "price": "200",
-            "priceCurrency": "CHF"
+            "priceCurrency": "CHF",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Hydrothérapie du côlon",
+                "description": "L’hydrothérapie du côlon est une approche thérapeutique ancestrale de nettoyage du gros intestin",
+                "additionalProperty": {
+                    "@type": "PropertyValue",
+                    "name": "duration",
+                    "value": "PT1H45M"
+                }
+            }
         },
         {
-            "@type": "Service",
-            "name": "Hydrothérapie du côlon à l’ozone",
-            "description": "Approche thérapeutique innovante qui utilise les propriétés de l’ozone (O₃) pour stimuler les mécanismes naturels de guérison et de régénération de l’organisme. En complément à l’hydrothérapie du côlon uniquement.",
-            "timeRequired": "PT1H45M",
-            "price": "280",
-            "priceCurrency": "CHF"
+            "@type": "Offer",
+            "price": "80",
+            "priceCurrency": "CHF",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Hydrothérapie du côlon à l’ozone",
+                "description": "Approche thérapeutique innovante qui utilise les propriétés de l’ozone (O₃) pour stimuler les mécanismes naturels de guérison et de régénération de l’organisme. En complément à l’hydrothérapie du côlon uniquement.",
+                "additionalProperty": {
+                    "@type": "PropertyValue",
+                    "name": "duration",
+                    "value": "PT1H45M"
+                }
+            }
         },
         {
-            "@type": "Service",
-            "name": "Drainage lymphatique manuel du Dr Vodder",
-            "description": "Technique de massage thérapeutique très raffinée et efficace pour stimuler le système lymphatique.",
-            "timeRequired": "PT1H00M",
+            "@type": "Offer",
             "price": "140",
-            "priceCurrency": "CHF"
+            "priceCurrency": "CHF",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Drainage lymphatique manuel du Dr Vodder",
+                "description": "Technique de massage thérapeutique très raffinée et efficace pour stimuler le système lymphatique.",
+                "additionalProperty": {
+                    "@type": "PropertyValue",
+                    "name": "duration",
+                    "value": "PT1H00M"
+                }
+            }
         },
         {
-            "@type": "Service",
-            "name": "Réflexologie douce méthode Nick Durrer",
-            "description": "Approche révolutionnaire de la réflexologie plantaire, développée par le thérapeute suisse Nick Durrer.",
-            "timeRequired": "PT1H00M",
+            "@type": "Offer",
             "price": "130",
-            "priceCurrency": "CHF"
+            "priceCurrency": "CHF",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Réflexologie douce méthode Nick Durrer",
+                "description": "Approche révolutionnaire de la réflexologie plantaire, développée par le thérapeute suisse Nick Durrer.",
+                "additionalProperty": {
+                    "@type": "PropertyValue",
+                    "name": "duration",
+                    "value": "PT1H00M"
+                }
+            }
         },
         {
-            "@type": "Service",
-            "name": "Massage du dos Dorn et Breuss",
-            "description": "Approche thérapeutique qui combine deux techniques complémentaires pour les troubles vertébraux et les tensions dorsales.",
-            "timeRequired": "PT1H00M",
+            "@type": "Offer",
             "price": "140",
-            "priceCurrency": "CHF"
+            "priceCurrency": "CHF",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Massage du dos Dorn et Breuss",
+                "description": "Approche thérapeutique qui combine deux techniques complémentaires pour les troubles vertébraux et les tensions dorsales.",
+                "additionalProperty": {
+                    "@type": "PropertyValue",
+                    "name": "duration",
+                    "value": "PT1H00M"
+                }
+            }
         },
         {
-            "@type": "Service",
-            "name": "Massage de détente",
-            "description": "Massage thérapeutique pour une relaxation profonde",
-            "timeRequired": "PT1H00M",
+            "@type": "Offer",
             "price": "140",
-            "priceCurrency": "CHF"
+            "priceCurrency": "CHF",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Massage de détente",
+                "description": "Massage thérapeutique pour une relaxation profonde",
+                "additionalProperty": {
+                    "@type": "PropertyValue",
+                    "name": "duration",
+                    "value": "PT1H00M"
+                }
+            }
         },
         {
-            "@type": "Service",
-            "name": "Thérapie par le son des diapasons",
-            "description": "Approche vibratoire qui utilise les fréquences sonores des diapasons pour rééquilibrer l’énergie vitale.",
-            "timeRequired": "PT1H10M",
+            "@type": "Offer",
             "price": "140",
-            "priceCurrency": "CHF"
+            "priceCurrency": "CHF",
+            "itemOffered": {
+                "@type": "Service",
+                "name": "Thérapie par le son des diapasons",
+                "description": "Approche vibratoire qui utilise les fréquences sonores des diapasons pour rééquilibrer l’énergie vitale.",
+                "additionalProperty": {
+                    "@type": "PropertyValue",
+                    "name": "duration",
+                    "value": "PT1H10M"
+                }
+            }
         }
     ]
 }

@@ -22,15 +22,19 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="{{ .Site.Title }}">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="alternate" type="application/ld+json" href='{{ "hydrotherapie-eaux-vives.jsonld" | relURL }}'>
+    <script type="application/ld+json">
+/***
+    Valider le code JSON-LD avec https://validator.schema.org/
+ */
+{{ (readFile "static/hydrotherapie-eaux-vives.jsonld") | safeJS }}
+    </script>
+</head>
 </head>
 
 <body>
     {{ block "main" . }}{{ end }}
     <script src='{{ "scripts.js" | relURL }}'></script>
     <script src='{{ "helpers.js" | relURL }}'></script>
-{{/*<!--
--->*/}}
 </body>
 
 </html>
