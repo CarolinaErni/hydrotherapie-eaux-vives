@@ -1,6 +1,6 @@
 {
     "@context": "https://schema.org",
-    "@type": "HealthAndBeautyBusiness",
+    "@type": ["HealthAndBeautyBusiness", "LocalBusiness"],
     "name": "Cabinet Carolina Erni",
     "alternateName": "Hydrotherapie Eaux Vives",
     "url": "https://hydrotherapie-eaux-vives.ch",
@@ -49,6 +49,7 @@
             "@type": "Offer",
             "price": "200",
             "priceCurrency": "CHF",
+            "url": "https://hydrotherapie-eaux-vives.ch/#04-01-hydrotherapie-du-colon",
             "itemOffered": {
                 "@type": "Service",
                 "name": "Hydrothérapie du côlon",
@@ -64,6 +65,7 @@
             "@type": "Offer",
             "price": "80",
             "priceCurrency": "CHF",
+            "url": "https://hydrotherapie-eaux-vives.ch/#04-02-therapie-ozone",
             "itemOffered": {
                 "@type": "Service",
                 "name": "Hydrothérapie du côlon à l’ozone",
@@ -79,6 +81,7 @@
             "@type": "Offer",
             "price": "140",
             "priceCurrency": "CHF",
+            "url": "https://hydrotherapie-eaux-vives.ch/#04-03-drainage-lymphatique",
             "itemOffered": {
                 "@type": "Service",
                 "name": "Drainage lymphatique manuel du Dr Vodder",
@@ -94,6 +97,7 @@
             "@type": "Offer",
             "price": "130",
             "priceCurrency": "CHF",
+            "url": "https://hydrotherapie-eaux-vives.ch/#04-04-reflexologie",
             "itemOffered": {
                 "@type": "Service",
                 "name": "Réflexologie douce méthode Nick Durrer",
@@ -109,6 +113,7 @@
             "@type": "Offer",
             "price": "140",
             "priceCurrency": "CHF",
+            "url": "https://hydrotherapie-eaux-vives.ch/#04-05-massage-dos",
             "itemOffered": {
                 "@type": "Service",
                 "name": "Massage du dos Dorn et Breuss",
@@ -124,6 +129,7 @@
             "@type": "Offer",
             "price": "140",
             "priceCurrency": "CHF",
+            "url": "https://hydrotherapie-eaux-vives.ch/#04-06-massage-detente",
             "itemOffered": {
                 "@type": "Service",
                 "name": "Massage de détente",
@@ -139,6 +145,7 @@
             "@type": "Offer",
             "price": "140",
             "priceCurrency": "CHF",
+            "url": "https://hydrotherapie-eaux-vives.ch/#04-07-sonotherapie-diapasons",
             "itemOffered": {
                 "@type": "Service",
                 "name": "Thérapie par le son des diapasons",
