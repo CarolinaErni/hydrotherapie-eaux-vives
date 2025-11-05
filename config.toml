@@ -1,10 +1,9 @@
 
-baseURL             = "https://hydrotherapie-eaux-vives.ch"
+baseURL             = "https://hydrotherapie-eaux-vives.ch/"
 languageCode        = "fr-FR"
 title               = "Carolina Erni — Hydrothérapie & massages"
 canonifyurls        = true
 disableRSS          = true
-disableKinds        = ["sitemap"]
 ignoreFiles         = ["static/_stock", ".DS_Store"]
 
 [params]
@@ -18,15 +17,16 @@ ignoreFiles         = ["static/_stock", ".DS_Store"]
   page = []
   taxonomy = []
 
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+
 [outputFormats]
   [outputFormats.Robots]
     mediaType = "text/plain"
     baseName = "robots"
     isPlainText = true
     notAlternative = true
-
-# [permalinks]
-#   post = "/:slug/"
 
 [markup]
   [markup.goldmark]
