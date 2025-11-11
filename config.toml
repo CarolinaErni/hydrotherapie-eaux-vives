@@ -13,7 +13,7 @@ ignoreFiles         = ["static/_stock", ".DS_Store"]
   prodURL           = "https://hydrotherapie-eaux-vives.ch"
 
 [outputs]
-  home = ["HTML", "Robots"]
+  home = ["HTML", "Robots", "Sitemap"]
   page = []
   taxonomy = []
 
