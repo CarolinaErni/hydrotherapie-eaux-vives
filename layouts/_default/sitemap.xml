@@ -1,7 +1,8 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}<!--
 
 Validate with:
-https://search.google.com/search-console/sitemaps/info-drilldown?resource_id=sc-domain:hydrotherapie-eaux-vives.ch&sitemap=https:%2F%2Fhydrotherapie-eaux-vives.ch%2Fsitemap.xml
+
+https://search.google.com/search-console/sitemaps?resource_id=sc-domain%3Ahydrotherapie-eaux-vives.ch
 
 -->
 <urlset
