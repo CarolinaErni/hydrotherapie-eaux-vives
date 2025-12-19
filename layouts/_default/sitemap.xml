@@ -1,0 +1,20 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}<!--
+
+Validate with:
+https://search.google.com/search-console/sitemaps/info-drilldown?resource_id=sc-domain:hydrotherapie-eaux-vives.ch&sitemap=https:%2F%2Fhydrotherapie-eaux-vives.ch%2Fsitemap.xml
+
+-->
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://hydrotherapie-eaux-vives.ch/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://hydrotherapie-eaux-vives.ch/preparation-hydrotherapie.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+</urlset>
