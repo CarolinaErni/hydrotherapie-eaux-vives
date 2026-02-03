@@ -2,4 +2,4 @@
 title: "Footer"
 ---
 
-[❧](https://jeanmonod.net/)
+[❊](https://jeanmonod.net/)
