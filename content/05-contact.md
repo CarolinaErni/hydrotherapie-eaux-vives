@@ -14,11 +14,15 @@ title: "Contact & Infos"
     <p>+41 76 317 08 16</p>
 </div>
 
+{{< comment >}}
+<!--
 <div class="contact-item">
     <img class="contact-icon" alt="Material icon" src="./icons/mail_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
     <h3>Email</h3>
     <p><a href="mailto:hydrotherapie.eaux.vives@gmail.com">hydrotherapie.eaux.vives@gmail.com</a></p>
 </div>
+-->
+{{< /comment >}}
 
 <div class="contact-item">
     <img class="contact-icon" alt="Material icon" src="./icons/tram_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
@@ -40,11 +44,9 @@ title: "Contact & Infos"
 </div>
 
 <div class="contact-item">
-    <img class="contact-icon" alt="Material icon" src="./icons/handshake_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
-    <h3>CGV</h3>
-    <p>Si vous désirez modifier ou annuler un rendez-vous, je vous prie de m’en informer au plus tard deux jours ouvrables à l’avance.</p>
-    <p>Passé ce délai, le rendez-vous vous sera facturé intégralement.</p>
-    <p>J’accepte les payements en espèces, en francs suisses et sur place.</p>
+    <img class="contact-icon" alt="Material icon" src="./icons/favorite_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
+    <h3>Liens</h3>
+    <p>•  <a href="https://massage-confignon.ch/">massage-confignon.ch</a></p>
 </div>
 
 <div class="contact-item">
@@ -65,8 +67,9 @@ title: "Contact & Infos"
 </div>
 
 <div class="contact-item">
-    <img class="contact-icon" alt="Material icon" src="./icons/favorite_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
-    <h3>Liens</h3>
-    <p>•  <a href="https://massage-confignon.ch/">massage-confignon.ch</a></p>
+    <img class="contact-icon" alt="Material icon" src="./icons/handshake_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg">
+    <h3>CGV</h3>
+    <p>Si vous désirez modifier ou annuler un rendez-vous, je vous prie de m’en informer au plus tard deux jours ouvrables à l’avance.</p>
+    <p>Passé ce délai, le rendez-vous vous sera facturé intégralement.</p>
+    <p>J’accepte les payements en espèces, en francs suisses et sur place.</p>
 </div>
-
