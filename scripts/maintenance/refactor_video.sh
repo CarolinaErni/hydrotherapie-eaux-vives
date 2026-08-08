@@ -4,8 +4,9 @@ set -euo pipefail
 
 SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
 REPOSITORY_DIR=$(cd -- "$SCRIPT_DIR/../.." && pwd)
-VIDEO_DIR="$REPOSITORY_DIR/static/videos"
-VIDEO_IN="$VIDEO_DIR/GettyImages-1655701480.mp4"
+VIDEO_SOURCE_DIR="$REPOSITORY_DIR/assets/videos/source"
+VIDEO_OUTPUT_DIR="$REPOSITORY_DIR/static/videos"
+VIDEO_IN="$VIDEO_SOURCE_DIR/GettyImages-1655701480.mp4"
 MODE=${1:-warm}
 
 usage() {
@@ -26,7 +27,7 @@ fi
 
 case "$MODE" in
     warm)
-        VIDEO_OUT="$VIDEO_DIR/GettyImages-1655701480-warm.mp4"
+        VIDEO_OUT="$VIDEO_OUTPUT_DIR/GettyImages-1655701480-warm.mp4"
         ffmpeg -y -i "$VIDEO_IN" \
             -vf 'eq=brightness=0.07:saturation=1.4,colorbalance=rs=.4:gs=.15:bs=-.25,hqdn3d=1.5:1.5:6:6' \
             -c:v libx264 -crf 14 -preset slow -pix_fmt yuv420p \
@@ -34,7 +35,7 @@ case "$MODE" in
             "$VIDEO_OUT"
         ;;
     web)
-        VIDEO_OUT="$VIDEO_DIR/GettyImages-1655701480-web.mp4"
+        VIDEO_OUT="$VIDEO_OUTPUT_DIR/GettyImages-1655701480-web.mp4"
         ffmpeg -y -i "$VIDEO_IN" \
             -c:v libx264 -crf 28 -preset slow -pix_fmt yuv420p \
             -an -movflags +faststart \
