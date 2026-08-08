@@ -1,0 +1,42 @@
+locale: fr-FR
+title: Carolina Erni — Hydrothérapie & massages
+theme: hydrotherapie-eaux-vives
+canonifyURLs: true
+disableRSS: true
+ignoreFiles:
+  - static/_stock
+  - .DS_Store
+
+params:
+  otherURL: https://hydrotherapie-eaux-vives.ch
+  description: Cabinet d’hydrothérapie et de massages aux Eaux-Vives à Genève
+  author: Carolina Erni
+  prodURL: https://hydrotherapie-eaux-vives.ch
+
+outputs:
+  home:
+    - HTML
+    - Robots
+  page: []
+  taxonomy: []
+
+outputFormats:
+  Robots:
+    mediaType: text/plain
+    baseName: robots
+    isPlainText: true
+    notAlternative: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    parser:
+      attribute: true
+
+security:
+  allowContent:
+    - ^text/(html|markdown)$
+
+minify:
+  minifyOutput: false
