@@ -1,5 +1,6 @@
+#!/usr/bin/env bash
 
-HTMLFILE=../public/index.html
+HTMLFILE=../../.hugo/public/index.html
 CSSFILE=../static/style.css
 UNCSSFILE=style_uncss.css
 

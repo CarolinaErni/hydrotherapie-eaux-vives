@@ -1,12 +1,14 @@
-# Vidéos sources
+# VIDÉOS
+
+## Sources
 
 Ce répertoire contient les vidéos originales utilisées pour produire les variantes destinées au site.
 
 ## Choix des chemins
 
-- `assets/videos/source/` contient les fichiers sources. Hugo ne les copie pas tels quels dans le site généré.
-- `static/videos/` contient uniquement les variantes prêtes à être publiées. Hugo les copie telles quelles dans `public/videos/`.
-- `resources/` n’est pas utilisé pour les sources, car Hugo réserve ce répertoire aux ressources générées et mises en cache.
+-   `assets/videos/source/` contient les fichiers sources. Hugo   ne les copie pas tels quels dans le site généré.
+-   `static/videos/` contient uniquement les variantes prêtes à être publiées. Hugo les copie telles quelles dans `.hugo/public/videos/`.
+-   `.hugo/resources/` n’est pas utilisé pour les sources, car Hugo réserve ce répertoire aux ressources générées et mises en cache.
 
 Cette séparation évite de publier les fichiers originaux, souvent plus lourds, tout en permettant de régénérer les variantes optimisées.
 

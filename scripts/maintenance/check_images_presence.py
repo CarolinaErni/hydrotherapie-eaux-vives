@@ -8,8 +8,8 @@ def check_images_in_html():
     Vérifie si tous les fichiers du répertoire 'images' sont référencés dans index.html
     """
     # Chemin vers le répertoire images et le fichier index.html
-    images_dir = Path("../public/images")
-    html_file = Path("../public/index.html")
+    images_dir = Path("../../.hugo/public/images")
+    html_file = Path("../../.hugo/public/index.html")
 
     # Vérifier que le répertoire images existe
     if not images_dir.exists():

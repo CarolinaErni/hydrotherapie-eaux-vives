@@ -1,6 +1,8 @@
 locale: fr-FR
 title: Carolina Erni — Hydrothérapie & massages
 theme: hydrotherapie-eaux-vives
+publishDir: .hugo/public
+resourceDir: .hugo/resources
 canonifyURLs: true
 disableRSS: true
 ignoreFiles:

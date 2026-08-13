@@ -3,6 +3,7 @@
 
 # Hugo cache and resources
 /resources/
+/.hugo/
 
 # OS files
 .DS_Store
