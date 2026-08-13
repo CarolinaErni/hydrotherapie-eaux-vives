@@ -17,7 +17,7 @@ alpha = data[:, :, 3]
 alpha_smooth = Image.fromarray(alpha).filter(ImageFilter.GaussianBlur(0.5))
 alpha_smooth = np.array(alpha_smooth)
 
-# Augmentation du contraste de l'alpha
+# Augmentation du contraste de l’alpha
 alpha_contrast = np.clip(((alpha_smooth - 128) * 1.3) + 128, 0, 255)
 
 # Application du nouveau masque

@@ -443,7 +443,7 @@ h2 {
     transform: translateY(0);
 }
 
-/* Style pour l'image dans .service-picture */
+/* Style pour l’image dans .service-picture */
 .service-card img {
     border-radius: 10px;
     margin: 0 0 2rem;
@@ -561,7 +561,7 @@ h2 {
     margin: 2em 0;
 }
 
-/* Style pour le bouton "Afficher plus" */
+/* Style pour le bouton “Afficher plus” */
 button {
     background-color: var(--txt-1-cl);
     border-radius: 5px;

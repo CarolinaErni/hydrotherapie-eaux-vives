@@ -41,7 +41,7 @@ def crop_square_shifted(image_path, output_path=None, shift_ratio=-0.03):
     top = cy - side // 2
     bottom = cy + side // 2
 
-    # éviter de sortir de l'image
+    # éviter de sortir de l’image
     if left < 0:
         left, right = 0, side
     elif right > w:
@@ -128,7 +128,7 @@ def remove_background(image_path, output_path=None):
         return None
 
     try:
-        # Ouvrir l'image source
+        # Ouvrir l’image source
         with open(image_path, "rb") as input_file:
             input_data = input_file.read()
 
@@ -145,7 +145,7 @@ def remove_background(image_path, output_path=None):
         from PIL import Image
         import io
 
-        # Charger l'image depuis les données de rembg
+        # Charger l’image depuis les données de rembg
         image = Image.open(io.BytesIO(output_data))
 
         # Sauvegarder au format WebP avec transparence

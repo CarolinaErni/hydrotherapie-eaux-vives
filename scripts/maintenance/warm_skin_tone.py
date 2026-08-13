@@ -11,7 +11,7 @@ def apply_warm_skin_filter(
     Préserve le canal alpha (transparence) s'il existe et blend le rendu
     pour des transitions douces vers le fond transparent.
     """
-    # Charger l'image en conservant le canal alpha si présent
+    # Charger l’image en conservant le canal alpha si présent
     image = cv2.imread(image_path, cv2.IMREAD_UNCHANGED)
     if image is None:
         print(f"[✖] Impossible de charger l'image : {image_path}")
@@ -40,7 +40,7 @@ def apply_warm_skin_filter(
     mask_f = skin_mask.astype(np.float32) / 255.0
     mask_3ch = cv2.merge([mask_f, mask_f, mask_f])
 
-    # Si l'image a un canal alpha, éviter toute modification sur les pixels
+    # Si l’image a un canal alpha, éviter toute modification sur les pixels
     # complètement transparents (protéger le fond transparent)
     if alpha is not None:
         alpha_f = alpha.astype(np.float32) / 255.0
@@ -75,16 +75,16 @@ def apply_warm_skin_filter(
     else:
         mean_ref = None
 
-    # Préparer l'image source en float pour modification
+    # Préparer l’image source en float pour modification
     src = bgr.astype(np.float32)
 
     if mean_ref is not None:
-        # Calculer la couleur moyenne actuelle de la peau dans l'image cible
+        # Calculer la couleur moyenne actuelle de la peau dans l’image cible
         tgt_mask = skin_mask
         tgt_mask = cv2.GaussianBlur(tgt_mask, (15, 15), 0)
         tgt_mask_bool = tgt_mask.astype(bool)
         if tgt_mask_bool.any():
-            # Utiliser l'espace Lab pour un transfert colorimétrique plus naturel
+            # Utiliser l’espace Lab pour un transfert colorimétrique plus naturel
             # Convertir en uint8 puis Lab (OpenCV opère en uint8 pour cvtColor)
             src_uint8 = src.astype(np.uint8)
             src_lab = cv2.cvtColor(src_uint8, cv2.COLOR_BGR2LAB).astype(np.float32)
@@ -140,7 +140,7 @@ def apply_warm_skin_filter(
         )  # Blue channel
     # --- Subtile teinte cuivrée (copper) appliquée sur les zones peau ---
     # On crée une variante légèrement plus cuivrée et on la blend localement
-    # contrôlée par `warmth` et `strength` pour laisser l'effet discret.
+    # contrôlée par `warmth` et `strength` pour laisser l’effet discret.
     try:
         # Augmenté légèrement pour une teinte cuivrée plus visible
         copper_intensity = 0.12 * float(warmth)
@@ -160,7 +160,7 @@ def apply_warm_skin_filter(
 
         # Force de mélange locale: modérée pour ne pas sur-saturer
         copper_blend_factor = 0.6 * copper_intensity * float(strength)
-        # créer un masque 3 canaux pour l'application du cuivre
+        # créer un masque 3 canaux pour l’application du cuivre
         copper_mask = np.clip(mask_3ch * copper_blend_factor, 0.0, 1.0)
 
         # Blend cuivre vs warm localement
@@ -171,20 +171,20 @@ def apply_warm_skin_filter(
 
     # Réassembler avec alpha si nécessaire
     if alpha is not None:
-        # s'assurer que alpha est de type uint8
+        # s’assurer que alpha est de type uint8
         if alpha.dtype != np.uint8:
             alpha = (alpha * 255).astype(np.uint8)
         result = cv2.merge([result_rgb, alpha])
     else:
         result = result_rgb
 
-    # Sauvegarder l'image modifiée en essayant d'abord OpenCV
+    # Sauvegarder l’image modifiée en essayant d’abord OpenCV
     ok = cv2.imwrite(output_path, result)
     if ok:
         print(f"[✔] Image sauvegardée : {output_path}")
         return
 
-    # Si cv2.imwrite n'a pas fonctionné (ex: OpenCV compilé sans support WebP alpha),
+    # Si cv2.imwrite n’a pas fonctionné (ex: OpenCV compilé sans support WebP alpha),
     # utiliser Pillow comme solution de secours pour garantir la transparence.
     try:
         from PIL import Image
@@ -211,7 +211,7 @@ def apply_warm_skin_filter(
         print(f"[✖] Échec lors de la sauvegarde (cv2 + Pillow) : {e}")
 
 
-# Exemple d'utilisation (valeurs codées en dur)
+# Exemple d’utilisation (valeurs codées en dur)
 def _parse_list(csv_str):
     """Parse a comma-separated list of floats (e.g. "1.0,1.3,1.6")."""
     if not csv_str:

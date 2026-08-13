@@ -174,7 +174,7 @@ function targetBlank() {
 }
 targetBlank();
 
-// Gestion de la limitation des paragraphes et du bouton "Afficher plus" avec affichage limité au repli
+// Gestion de la limitation des paragraphes et du bouton “Afficher plus” avec affichage limité au repli
 function truncateServiceCards() {
     const serviceCards = document.querySelectorAll(".service-card");
 
@@ -304,8 +304,8 @@ if (document.readyState !== "loading") addAnchorsToServiceCards();
 /**
  * cycleCarolinaPhoto()
  * - Liste en dur des images de Carolina (séquentiel)
- * - Stocke l'index courant dans localStorage pour la prochaine visite
- * - Met à jour l'image `img[alt="Carolina Erni"]`
+ * - Stocke l’index courant dans localStorage pour la prochaine visite
+ * - Met à jour l’image `img[alt="Carolina Erni"]`
  */
 function cycleCarolinaPhoto() {
     const list = [
