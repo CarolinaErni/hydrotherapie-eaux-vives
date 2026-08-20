@@ -1,6 +1,7 @@
 {
     "@context": "https://schema.org",
     "@type": ["HealthAndBeautyBusiness", "LocalBusiness"],
+    "@id": "https://hydrotherapie-eaux-vives.ch/#cabinet",
     "name": "Cabinet Carolina Erni",
     "alternateName": "Hydrotherapie Eaux Vives",
     "url": "https://hydrotherapie-eaux-vives.ch",
@@ -38,10 +39,30 @@
         "closes": "18:00"
     },
     "founder": {
+        "@id": "https://hydrotherapie-eaux-vives.ch/#carolina-erni"
+    },
+    "employee": {
         "@type": "Person",
+        "@id": "https://hydrotherapie-eaux-vives.ch/#carolina-erni",
         "name": "Carolina Erni",
+        "alternateName": "Caroline Erni",
         "jobTitle": "masseuse et thérapeute diplômée",
-        "url": "https://hydrotherapie-eaux-vives.ch#presentation"
+        "url": "https://hydrotherapie-eaux-vives.ch/#presentation",
+        "hasCertification": {
+            "@type": "Certification",
+            "name": "Label de qualité ASCA",
+            "url": "https://asca.ch/therapeutes-asca/detail-du-therapeute/Caroline-Erni_601591/",
+            "issuedBy": {
+                "@type": "Organization",
+                "name": "Fondation suisse pour les médecines complémentaires ASCA",
+                "url": "https://asca.ch/"
+            }
+        },
+        "memberOf": {
+            "@type": "Organization",
+            "name": "Interessengemeinschaft Colon-Hydro Therapeuten Schweiz",
+            "url": "https://colon.ch/membres/?lang=fr"
+        }
     },
     "makesOffer": [
         {

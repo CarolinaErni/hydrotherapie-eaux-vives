@@ -27,7 +27,7 @@
 /***
     Valider le code JSON-LD avec https://validator.schema.org/
  */
-{{ (readFile "static/hydrotherapie-eaux-vives.jsonld") | safeJS }}
+{{ (os.ReadFile "static/hydrotherapie-eaux-vives.jsonld") | safeJS }}
     </script>
     <meta name="google-site-verification" content="Mj97xtdQ-GGanU0cYKk2oOpqOABe3fVc4WyW7HE6NwQ">
 </head>
