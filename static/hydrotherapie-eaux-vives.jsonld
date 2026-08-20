@@ -47,6 +47,7 @@
         "name": "Carolina Erni",
         "alternateName": "Caroline Erni",
         "jobTitle": "masseuse et thérapeute diplômée",
+        "knowsLanguage": ["de", "fr", "en"],
         "url": "https://hydrotherapie-eaux-vives.ch/#presentation",
         "hasCertification": {
             "@type": "Certification",
