@@ -26,5 +26,5 @@ if __name__ == "__main__":
     if len(sys.argv) > 1 and "ipykernel_launcher.py" not in sys.argv[0]:
         fname = sys.argv[1]
     else:
-        fname = "../../.hugo/public/index.html"
+        fname = "../../.hugo_nokdrive/public/index.html"
     prettify(fname)

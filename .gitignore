@@ -4,6 +4,7 @@
 # Hugo cache and resources
 /resources/
 /.hugo/
+/.hugo_nokdrive/
 
 # OS files
 .DS_Store

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-HTMLFILE=../../.hugo/public/index.html
+HTMLFILE=../../.hugo_nokdrive/public/index.html
 CSSFILE=../static/style.css
 UNCSSFILE=style_uncss.css
 

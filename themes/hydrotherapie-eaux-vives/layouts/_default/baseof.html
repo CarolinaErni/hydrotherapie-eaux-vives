@@ -1,41 +1,10 @@
-<!doctype html>
-<html lang="fr">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator-date" content="{{ now.UTC.Format `2006-01-02T15:04:05Z` }}">
-    <title>{{ .Site.Title }}</title>
-    <link rel="icon" type="image/svg+xml" href='{{ "favicon.svg" | relURL }}'>
-    <link rel="icon" type="image/x-icon" href='{{ "favicon.ico" | relURL }}'>
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href='{{ "style.css" | relURL }}'>
-    <link rel="canonical" href="{{ if .IsHome }}{{ .Site.Params.otherURL }}{{ else }}{{ .Permalink }}{{ end }}">
-    <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
-    <meta property="og:url" content="{{ if .IsHome }}{{ .Site.Params.otherURL }}{{ else }}{{ .Permalink }}{{ end }}">
-    <meta property="og:title" content="{{ .Site.Title }}">
-    <meta property="og:description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
-    <meta property="og:image" content="{{ if .IsHome }}{{ .Site.Params.otherURL }}{{ else }}{{ .Permalink }}{{ end }}/images/2-1-hydrotherapie-eaux-vives-accueil-og.webp">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="628">
-    <meta property="og:image:alt" content="{{ .Site.Title }}">
-    <meta property="og:locale" content="{{ .Site.Language.Locale }}">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="{{ .Site.Title }}">
-    <meta name="twitter:card" content="summary_large_image">
-    <script type="application/ld+json">
-/***
-    Valider le code JSON-LD avec https://validator.schema.org/
- */
-{{ (os.ReadFile "static/hydrotherapie-eaux-vives.jsonld") | safeJS }}
-    </script>
-    <meta name="google-site-verification" content="Mj97xtdQ-GGanU0cYKk2oOpqOABe3fVc4WyW7HE6NwQ">
-</head>
-
+<!DOCTYPE html>
+<html lang="{{ site.Language.Lang | default `fr` }}">
+{{ partial "head.html" . }}
 <body>
     {{ block "main" . }}{{ end }}
     <script src='{{ "scripts.js" | relURL }}'></script>
     <script src='{{ "helpers.js" | relURL }}'></script>
+    {{ partial "cloudflare-analytics.html" . }}
 </body>
-
 </html>

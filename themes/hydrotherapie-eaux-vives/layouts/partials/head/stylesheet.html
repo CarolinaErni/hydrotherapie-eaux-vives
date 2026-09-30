@@ -1,0 +1,4 @@
+{{- $styleContent := os.ReadFile "themes/hydrotherapie-eaux-vives/static/style.css" -}}
+{{- $style := resources.FromString "style.css" $styleContent | fingerprint "sha256" -}}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+{{- /* Supprime le retour à la ligne final du partial. */ -}}

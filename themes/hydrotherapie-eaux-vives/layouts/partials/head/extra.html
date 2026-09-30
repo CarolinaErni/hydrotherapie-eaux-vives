@@ -1,0 +1,4 @@
+{{ with site.Params.googleSiteVerification }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
+{{ with site.Params.structuredDataFile }}
+<script type="application/ld+json">{{ os.ReadFile . | safeJS }}</script>
+{{ end }}
